@@ -59,6 +59,40 @@ function Analogue() {
 --component_color_button-filled-hover: var(--alias_color_accent-hover);
 }`;
 
+  const codeThree = `//light-theme.modules.css
+    type
+    Props = {
+        size: ‘s’ | ‘m’ | ‘l’;
+        lineHeight: ‘s’ | ‘m’ | ‘l’;         
+    }
+    ;
+
+    const Paragraph = ({
+                           size = ‘m’,
+    lineHeight =’l’,
+    children,
+    }:
+    PropsWithChildren < Props >
+    ) =>
+    {
+    ...
+
+        <Paragraph size=’
+        s’ lineHeight =’l’>
+        Fusion
+        Neue </Typography>
+
+//I also want to mention the beauty of shorthand font styling 
+            .paragraph - small
+        {
+            font: 16
+            px
+            120 %
+            var (
+            --global_typography_paragraph - font - family
+        )
+        }`;
+
   return (
     <Template>
       <Header
@@ -158,30 +192,7 @@ function Analogue() {
         heading="Typography"
         subHeading="One of my favourite discoveries when creating a design system the first time, was implementation of typography components that take props such as size, line-height and style."
       ></SubHeader>
-      <CodeBlock
-        code={
-          "//light-theme.modules.css\n" +
-          "\n" +
-          "type Props = {\n" +
-          "  size: ‘s’ | ‘m’ | ‘l’;\n" +
-          "  lineHeight: ‘s’ | ‘m’ | ‘l’;\n" +
-          "};\n" +
-          "\n" +
-          "const Paragraph = ({\n" +
-          " size = ‘m’, \n" +
-          "lineHeight =’l’,\n" +
-          "  children,\n" +
-          "}: PropsWithChildren<Props>) => {\n" +
-          " ...\n" +
-          "\n" +
-          "<Paragraph size=’s’ line-height=’l’>Fusion Neue</Typography>\n" +
-          "\n" +
-          "//I also want to mention the beauty of shorthand font styling \n" +
-          ".paragraph-small {\n" +
-          "font: 16px 120% var(--global_typography_paragraph-font-family)\n" +
-          "}"
-        }
-      />
+      <CodeBlock code={codeThree} />
       <ImageSectionThirteen />
       <SubHeader
         heading="Elevation, Border radius and Iconography"

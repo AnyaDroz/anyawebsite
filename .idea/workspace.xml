@@ -40,6 +40,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/anya/WebstormProjects/anyaportfolio/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.splitter.proportion": "0.28947368",
     "ts.external.directory.path": "/Users/anya/WebstormProjects/anyaportfolio/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717742805523</updated>
-      <workItem from="1717742806596" duration="24828000" />
+      <workItem from="1717742806596" duration="28263000" />
     </task>
     <servers />
   </component>
