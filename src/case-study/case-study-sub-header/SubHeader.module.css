@@ -1,0 +1,20 @@
+.container {
+    margin: 60px auto 0 auto;
+    row-gap: 0;
+}
+
+.content {
+    grid-column: 2/7;
+}
+
+
+@media only screen and (max-width: 478px) {
+
+    .content {
+        grid-column: 1/4;
+    }
+
+    .container {
+        margin: 80px auto 20px auto;
+    }
+}
