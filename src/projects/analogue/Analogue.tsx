@@ -21,6 +21,44 @@ import ImageSectionFifteen from "./ImageSectionFifteen";
 import CodeBlock from "../../common/CodeBlock";
 
 function Analogue() {
+  const codeOne = `//clock-card.modules.css
+
+//why is this customisation not possible, let’s take a look at the code.
+
+.clock-hands { 
+     background-color: var(--global_color_primary-content) 
+}
+
+.minute-lines { 
+     color: var(--global_color_primary-content) 
+}
+
+.hour-lines { 
+     color: var(--global_color_primary-content) 
+}
+
+.card-text { 
+     color: var(--global_color_primary-content) 
+}
+
+//light-theme.modules.css
+
+: root { --global_color_primary-content: --token_color_dark-grey }
+
+//by changing the global style for primary-content to red for our customisation - you’ll affect every css property pointing to that variable. The only way to do this with this current setup would be to override the style in clock-card.modules.css, and we can’t do that because it will break the theme setup.`;
+
+  const codeTwo = `//light-theme.modules.css
+
+//We can programmatically generate our shades using color-mix, here is an example for our button hover colour
+ 
+:root { 
+--alias_color_accent-85: color-mix(in rgb, var(--global_color_accent) 85% , var(--global_color_accent-mix) 15%);
+
+--alias_color_accent-hover: var(--alias_color_accent-85);
+
+--component_color_button-filled-hover: var(--alias_color_accent-hover);
+}`;
+
   return (
     <Template>
       <Header
@@ -83,7 +121,7 @@ function Analogue() {
       </Paragraph>
       <ImageSectionThree />
       <ImageSectionFour />
-      <div>CODE BLOCK</div>
+      <CodeBlock code={codeOne} />
       <ImageSectionFive />
       <ImageSectionSix />
       <Paragraph>
@@ -113,14 +151,37 @@ function Analogue() {
         </p>
       </Paragraph>
       <ImageSectionTen />
-      <div>CODE BLOCK</div>
+      <CodeBlock code={codeTwo} />
       <ImageSectionEleven />
       <ImageSectionTwelve />
       <SubHeader
         heading="Typography"
         subHeading="One of my favourite discoveries when creating a design system the first time, was implementation of typography components that take props such as size, line-height and style."
       ></SubHeader>
-      <div>CODE BLOCK</div>
+      <CodeBlock
+        code={
+          "//light-theme.modules.css\n" +
+          "\n" +
+          "type Props = {\n" +
+          "  size: ‘s’ | ‘m’ | ‘l’;\n" +
+          "  lineHeight: ‘s’ | ‘m’ | ‘l’;\n" +
+          "};\n" +
+          "\n" +
+          "const Paragraph = ({\n" +
+          " size = ‘m’, \n" +
+          "lineHeight =’l’,\n" +
+          "  children,\n" +
+          "}: PropsWithChildren<Props>) => {\n" +
+          " ...\n" +
+          "\n" +
+          "<Paragraph size=’s’ line-height=’l’>Fusion Neue</Typography>\n" +
+          "\n" +
+          "//I also want to mention the beauty of shorthand font styling \n" +
+          ".paragraph-small {\n" +
+          "font: 16px 120% var(--global_typography_paragraph-font-family)\n" +
+          "}"
+        }
+      />
       <ImageSectionThirteen />
       <SubHeader
         heading="Elevation, Border radius and Iconography"

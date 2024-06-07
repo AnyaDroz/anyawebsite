@@ -1,17 +1,28 @@
-import clsx from "clsx";
 import styles from "./CodeBlock.module.css";
-import { PropsWithChildren } from "react";
+import React, { PropsWithChildren } from "react";
+import Grid from "./Grid";
+import SyntaxHighlighter from "react-syntax-highlighter";
 
 type Props = {
-  className?: string;
+  code: any;
 };
-export default function CodeBlock({
-  className,
-  children,
-}: PropsWithChildren<Props>) {
+
+export default function CodeBlock({ code }: PropsWithChildren<Props>) {
   return (
-    <div className={clsx(styles.container, className)}>
-      <code>{children}</code>
-    </div>
+    <Grid>
+      <div className={styles.container}>
+        {/*<SyntaxHighlighter*/}
+        {/*  language="javascript"*/}
+        {/*  wrapLines={true}*/}
+        {/*  lineProps={{*/}
+        {/*    style: { wordBreak: "break-all", whiteSpace: "pre-wrap" },*/}
+        {/*  }}*/}
+        {/*>*/}
+        <pre className={styles.code}>
+          {code}
+          {/*</SyntaxHighlighter>*/}
+        </pre>
+      </div>
+    </Grid>
   );
 }
