@@ -3,96 +3,17 @@ import Template from "../../case-study/text-layouts/Template";
 import Header from "../../case-study/text-layouts/Header";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import SubHeader from "../../case-study/text-layouts/SubHeader";
-import ImageSectionOne from "./ImageSectionOne";
-import ImageSectionTwo from "./ImageSectionTwo";
-import ImageSectionThree from "./ImageSectionThree";
-import ImageSectionFour from "./ImageSectionFour";
-import ImageSectionFive from "./ImageSectionFive";
-import ImageSectionSix from "./ImageSectionSix";
-import ImageSectionSeven from "./ImageSectionSeven";
-import ImageSectionEight from "./ImageSectionEight";
-import ImageSectionNine from "./ImageSectionNine";
-import ImageSectionTen from "./ImageSectionTen";
-import ImageSectionEleven from "./ImageSectionEleven";
-import ImageSectionTwelve from "./ImageSectionTwelve";
-import ImageSectionThirteen from "./ImageSectionThirteen";
-import ImageSectionFourteen from "./ImageSectionFourteen";
-import ImageSectionFifteen from "./ImageSectionFifteen";
+
 import CodeBlock from "../../common/CodeBlock";
+import GridTwo from "../../case-study/image-layouts/GridTwo";
+import React from "react";
+import GridThree from "../../case-study/image-layouts/GridThree";
+import Single from "../../case-study/image-layouts/Single";
+import { codeOne } from "./code-text";
+import { codeTwo } from "./code-text";
+import { codeThree } from "./code-text";
 
 function Analogue() {
-  const codeOne = `//clock-card.modules.css
-
-//why is this customisation not possible, let’s take a look at the code.
-
-.clock-hands { 
-     background-color: var(--global_color_primary-content) 
-}
-
-.minute-lines { 
-     color: var(--global_color_primary-content) 
-}
-
-.hour-lines { 
-     color: var(--global_color_primary-content) 
-}
-
-.card-text { 
-     color: var(--global_color_primary-content) 
-}
-
-//light-theme.modules.css
-
-: root { --global_color_primary-content: --token_color_dark-grey }
-
-//by changing the global style for primary-content to red for our customisation - you’ll affect every css property pointing to that variable. The only way to do this with this current setup would be to override the style in clock-card.modules.css, and we can’t do that because it will break the theme setup.`;
-
-  const codeTwo = `//light-theme.modules.css
-
-//We can programmatically generate our shades using color-mix, here is an example for our button hover colour
- 
-:root { 
---alias_color_accent-85: color-mix(in rgb, var(--global_color_accent) 85% , var(--global_color_accent-mix) 15%);
-
---alias_color_accent-hover: var(--alias_color_accent-85);
-
---component_color_button-filled-hover: var(--alias_color_accent-hover);
-}`;
-
-  const codeThree = `//light-theme.modules.css
-    type
-    Props = {
-        size: ‘s’ | ‘m’ | ‘l’;
-        lineHeight: ‘s’ | ‘m’ | ‘l’;         
-    }
-    ;
-
-    const Paragraph = ({
-                           size = ‘m’,
-    lineHeight =’l’,
-    children,
-    }:
-    PropsWithChildren < Props >
-    ) =>
-    {
-    ...
-
-        <Paragraph size=’
-        s’ lineHeight =’l’>
-        Fusion
-        Neue </Typography>
-
-//I also want to mention the beauty of shorthand font styling 
-            .paragraph - small
-        {
-            font: 16
-            px
-            120 %
-            var (
-            --global_typography_paragraph - font - family
-        )
-        }`;
-
   return (
     <Template>
       <Header
@@ -101,8 +22,14 @@ function Analogue() {
         subHeading="Using nested variables to create a white-labelled design system with a default, minimal Light & Dark theme."
         role="UI Designer"
       />
-      <ImageSectionOne />
-
+      <GridThree
+        imageOne="/images/analogue-01.png"
+        captionOne="(1a) Mobile example screen of light mode design system"
+        imageTwo="/images/analogue-02.png"
+        captionTwo="(1b) Selection of light mode components"
+        imageThree="/images/analogue-03.png"
+        captionThree="(1c) Dark mode components"
+      />
       <Paragraph>
         <p>
           This case study demonstrates the solution I built at Pollinate for a
@@ -137,7 +64,14 @@ function Analogue() {
           <b>component variables</b> and alias variables.
         </p>
       </Paragraph>
-      <ImageSectionTwo />
+      <GridTwo
+        imageOne="/images/analogue-04.png"
+        imageTwo="/images/analogue-05.png"
+        mobileOne="/images/analogue-04-mobile.png"
+        mobileTwo="/images/analogue-05-mobile.png"
+        captionOne="(2a) Default dark theme application"
+        captionTwo="(2b) Default light theme application"
+      />
       <Paragraph>
         <p>
           Most design systems do use variables. However they usually only allows
@@ -153,11 +87,33 @@ function Analogue() {
           <b>using variables with a middle layer is far more customisable.</b>
         </p>
       </Paragraph>
-      <ImageSectionThree />
-      <ImageSectionFour />
+      <Single
+        layout="end"
+        image="/images/analogue-06.png"
+        mobile="/images/analogue-06-mobile.png"
+        caption="(3a) A clock component styled with one layer of css variables"
+      />
+      <GridTwo
+        imageOne="/images/analogue-07.png"
+        imageTwo="/images/analogue-08.png"
+        mobileTwo="/images/analogue-08-mobile.png"
+        mobileOne="/images/analogue-07-mobile.png"
+        captionOne="(3b) Switching themes only allows for a simple inversion"
+        captionTwo="(3c) The requirement is for the light theme to have additional style details, red clock hands and accent coloured hour lines."
+      />
       <CodeBlock code={codeOne} />
-      <ImageSectionFive />
-      <ImageSectionSix />
+      <Single
+        layout="start"
+        image="/images/analogue-09.png"
+        mobile="/images/analogue-09-mobile.png"
+        caption="(4a) A clock component styled with one layer of css variables"
+      />
+      <Single
+        layout="start"
+        image="/images/analogue-10.png"
+        mobile="/images/analogue-10-mobile.png"
+        caption="(4b) A clock component styled with one layer of css variables"
+      />
       <Paragraph>
         <p>
           Now we have a fully customisable, white labelled design system for our
@@ -168,9 +124,28 @@ function Analogue() {
           code repository directly by a designer.
         </p>
       </Paragraph>
-      <ImageSectionSeven />
-      <ImageSectionEight />
-      <ImageSectionNine />
+      <Single
+        layout="full"
+        image="/images/analogue-11.png"
+        mobile="/images/analogue-11-mobile.png"
+        caption="(5a) The same application, one system of nested variables, all styles maintained in the theme.css files"
+      />
+      <GridTwo
+        imageOne="/images/analogue-12.png"
+        imageTwo="/images/analogue-13.png"
+        captionOne="(1a) Mobile example screen of light mode design system"
+        mobileOne="/images/analogue-13-mobile.png"
+        mobileTwo="/images/analogue-12-mobile.png"
+        captionTwo="(1b) Mobile example screen of light mode design system example screen of light mode design system"
+      />
+      <GridTwo
+        imageOne="/images/analogue-14.png"
+        imageTwo="/images/analogue-15.png"
+        mobileTwo="/images/analogue-15-mobile.png"
+        mobileOne="/images/analogue-14-mobile.png"
+        captionOne="(1a) Mobile example screen of light mode design system"
+        captionTwo="(1b) Mobile example screen of light mode design systemexample screen of light mode design system"
+      />
       <SubHeader
         heading="Colours"
         subHeading="A common problem I’ve encountered is assigning unique colours directly to every state on an interaction, this is where alias variables come in."
@@ -184,16 +159,38 @@ function Analogue() {
           handle every interaction state across the application.
         </p>
       </Paragraph>
-      <ImageSectionTen />
+      <Single
+        layout="start"
+        image="/images/analogue-16.png"
+        mobile="/images/analogue-16-mobile.png"
+        caption="(1a) Mobile example screen of light mode design system"
+      />
       <CodeBlock code={codeTwo} />
-      <ImageSectionEleven />
-      <ImageSectionTwelve />
+      <Single
+        layout="full"
+        image="/images/analogue-17.png"
+        mobile="/images/analogue-17-mobile.png"
+        caption="(6a) The full spectrum colour palette and chosen shades for the default light theme"
+      />
+      <Single
+        layout="full"
+        image="/images/analogue-18.png"
+        mobile="/images/analogue-18-mobile.png"
+        caption="(6b) By changing just the global colours - all the shades needed changing with the application"
+      />
       <SubHeader
         heading="Typography"
         subHeading="One of my favourite discoveries when creating a design system the first time, was implementation of typography components that take props such as size, line-height and style."
       ></SubHeader>
       <CodeBlock code={codeThree} />
-      <ImageSectionThirteen />
+      <GridTwo
+        imageOne="/images/analogue-19.png"
+        imageTwo="/images/analogue-20.png"
+        mobileOne="/images/analogue-19-mobile.png"
+        mobileTwo="/images/analogue-20-mobile.png"
+        captionOne="(7a) Analogue Design System uses a Minor Third Typescale"
+        captionTwo="(7b) Usage of typography as a component"
+      />
       <SubHeader
         heading="Elevation, Border radius and Iconography"
         subHeading="To complete this design system I’ve used Radix icons.  There are four elevation styles and four default border-radius styles."
@@ -206,7 +203,14 @@ function Analogue() {
           in one line of code as a box-shadow.
         </p>
       </Paragraph>
-      <ImageSectionFourteen />
+      <GridThree
+        imageOne="/images/analogue-21.png"
+        captionOne="(8a) Default elevation system"
+        imageTwo="/images/analogue-22.png"
+        captionTwo="(8b) Border radii"
+        imageThree="/images/analogue-23.png"
+        captionThree="(8c) Radix Iconography set"
+      />
       <Paragraph>
         <p>
           Finally below is a showcase of all the themes created with this Design
@@ -225,7 +229,12 @@ function Analogue() {
           be rebranded.
         </p>
       </Paragraph>
-      <ImageSectionFifteen />
+      <Single
+        layout="full"
+        image="/images/analogue-24.png"
+        mobile="/images/analogue-24-mobile.png"
+        caption="(9) Analogue in light & dark"
+      />
     </Template>
   );
 }

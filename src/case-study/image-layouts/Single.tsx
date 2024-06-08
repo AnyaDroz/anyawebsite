@@ -1,18 +1,20 @@
 import clsx from "clsx";
 import Grid from "../../common/Grid";
 import styles from "./Single.module.css";
-import { ReactElement } from "react";
+import React, { ReactElement } from "react";
 
 type Props = {
   className?: string;
-  image: ReactElement;
+  image: string;
   caption: string;
   layout?: "start" | "end" | "full";
+  mobile: string;
 };
 export default function Single({
   className,
   image,
   caption,
+  mobile,
   layout = "start",
 }: Props) {
   return (
@@ -24,7 +26,13 @@ export default function Single({
           [styles.full]: layout === "full",
         })}
       >
-        <div className={styles.image}>{image}</div>
+        <div className={styles.image}>
+          <picture>
+            <source media="(max-width: 478px)" srcSet={mobile} />
+            <source media="(min-width: 1280px)" srcSet={image} />
+            <img src="/images/analogue-18.png" alt={caption} loading="lazy" />
+          </picture>
+        </div>
         <p className={styles.caption}>{caption}</p>
       </div>
     </Grid>

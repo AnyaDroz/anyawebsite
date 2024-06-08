@@ -1,13 +1,13 @@
 import clsx from "clsx";
 import Grid from "../../common/Grid";
 import styles from "./GridThree.module.css";
-import { ReactElement } from "react";
+import React, { ReactElement } from "react";
 
 type Props = {
   className?: string;
-  imageOne: ReactElement;
-  imageTwo: ReactElement;
-  imageThree: ReactElement;
+  imageOne: string;
+  imageTwo: string;
+  imageThree: string;
   captionOne: string;
   captionTwo: string;
   captionThree: string;
@@ -24,15 +24,21 @@ export default function GridThree({
   return (
     <Grid className={clsx(styles.container, className)}>
       <div className={styles.imageOne}>
-        <div>{imageOne}</div>
+        <div>
+          <img src={imageOne} alt={captionOne} />
+        </div>
         <p>{captionOne}</p>
       </div>
       <div className={styles.imageTwo}>
-        <div>{imageTwo}</div>
+        <div>
+          <img src={imageTwo} alt={captionTwo} />
+        </div>
         <p>{captionTwo}</p>
       </div>
       <div className={styles.imageThree}>
-        <div>{imageThree}</div>
+        <div>
+          <img src={imageThree} alt={captionThree} />
+        </div>
         <p>{captionThree}</p>
       </div>
     </Grid>

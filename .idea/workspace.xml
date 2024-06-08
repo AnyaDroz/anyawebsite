@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="" />
+    <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/projects/analogue/code-text.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case-study/image-layouts/GridThree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/image-layouts/GridThree.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case-study/image-layouts/GridTwo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/image-layouts/GridTwo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case-study/image-layouts/Single.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/image-layouts/Single.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/Analogue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/analogue/Analogue.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionEight.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionEleven.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionFifteen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionFive.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionFour.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionFourteen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionNine.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionOne.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionSeven.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionSix.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionTen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionThirteen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionThree.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionTwelve.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/ImageSectionTwo.tsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,32 +41,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hXaJfOHMu5DkMFS4e0XWrZOGpa" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/anya/WebstormProjects/anyaportfolio/public/fonts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/anya/WebstormProjects/anyaportfolio/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "settings.editor.splitter.proportion": "0.28947368",
-    "ts.external.directory.path": "/Users/anya/WebstormProjects/anyaportfolio/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anya/WebstormProjects/anyaportfolio/public/fonts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/anya/WebstormProjects/anyaportfolio/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28947368&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/anya/WebstormProjects/anyaportfolio/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -73,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717742805523</updated>
-      <workItem from="1717742806596" duration="28263000" />
+      <workItem from="1717742806596" duration="28811000" />
+      <workItem from="1717820857402" duration="1888000" />
     </task>
     <servers />
   </component>
