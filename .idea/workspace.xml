@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case-study/image-layouts/GridThree.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/image-layouts/GridThree.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case-study/image-layouts/GridTwo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/image-layouts/GridTwo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/case-study/image-layouts/Single.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/image-layouts/Single.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/echo/Echo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/echo/Echo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/instant-access/Access.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/instant-access/Access.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/loupe/Loupe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loupe/Loupe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/loupe/LoupeVideos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loupe/LoupeVideos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/multi-transactions/Multi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/multi-transactions/Multi.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +80,7 @@
       <workItem from="1717820857402" duration="8802000" />
       <workItem from="1717956967620" duration="5230000" />
       <workItem from="1717965045973" duration="883000" />
-      <workItem from="1718000423845" duration="24720000" />
+      <workItem from="1718000423845" duration="25015000" />
     </task>
     <servers />
   </component>
