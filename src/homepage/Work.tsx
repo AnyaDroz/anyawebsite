@@ -22,7 +22,7 @@ export default function Work() {
           image="/images/loupe-cover.png"
           mobileImage="/images/loupe-cover-mobile.png"
           tags="B2C, Marketplace, E-commerce, Publication"
-          altText="echo"
+          altText="Loupe"
         />
         <Project
           link="/multi-transactions"
@@ -31,7 +31,7 @@ export default function Work() {
           image="/images/multi-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           tags="B2B, Fintech, Payments"
-          altText="echo"
+          altText="Multi-transactions"
         />
         <Project
           link="/access"
@@ -39,8 +39,8 @@ export default function Work() {
           role="Lead designer and React developer"
           image="/images/access-cover.png"
           mobileImage="/images/access-cover-mobile.png"
-          tags="b2c"
-          altText="echo"
+          tags="B2B, Payments, Onbaording, Forms"
+          altText="Instand access"
         />
         <Project
           link="/analogue"
@@ -48,8 +48,8 @@ export default function Work() {
           role="Lead designer and React developer"
           image="/images/analogue-cover.png"
           mobileImage="/images/analogue-cover-mobile.png"
-          tags="b2c"
-          altText="echo"
+          tags="Design Systems, Components, Tokens"
+          altText="Analogue"
         />
       </div>
     </div>
