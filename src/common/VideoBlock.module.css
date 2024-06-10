@@ -5,8 +5,23 @@
 
 .video {
     width: 100%;
+    grid-column: 5/10;
 }
 
 .caption {
     grid-row: 2/3;
 }
+
+@media only screen and (max-width: 478px) {
+
+    .video {
+        grid-column: 1/-1;
+    }
+
+    .caption {
+        grid-column: 1/-1;
+    }
+}
+
+
+

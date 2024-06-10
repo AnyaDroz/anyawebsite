@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/projects/echo/VideoOne.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/echo/VideoOne.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoFive.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoFive.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoFour.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoFour.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoOne.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoOne.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoSix.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoSix.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoThree.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoThree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoTwo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoTwo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case-study/text-layouts/SubHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/case-study/text-layouts/SubHeader.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/VideoBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/VideoBlock.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/VideoBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/VideoBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage/Work.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/echo/Echo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/echo/Echo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loupe/Loupe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loupe/Loupe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loupe/LoupeVideos.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loupe/LoupeVideos.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +84,7 @@
       <recent name="$PROJECT_DIR$/public/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/projects/loupe/loupe-videos" />
       <recent name="$PROJECT_DIR$/src/case-study/case-study-text-layouts" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public/fonts" />
@@ -82,11 +103,23 @@
       <workItem from="1717820857402" duration="8802000" />
       <workItem from="1717956967620" duration="5230000" />
       <workItem from="1717965045973" duration="883000" />
-      <workItem from="1718000423845" duration="25549000" />
+      <workItem from="1718000423845" duration="29334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/projects/loupe/Loupe.tsx</url>
+          <line>250</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

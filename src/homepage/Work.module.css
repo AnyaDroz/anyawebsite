@@ -6,11 +6,6 @@
     border-bottom: 1px solid var(--dark-grey);
 }
 
-/*.scrollContainer::-webkit-scrollbar {*/
-/*    width: 0px;*/
-/*    background: transparent;*/
-/*}*/
-
 .workContent {
     padding: 40px 0;
     background-color: var(--case-study-page-background-color);

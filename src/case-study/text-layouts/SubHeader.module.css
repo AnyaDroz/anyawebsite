@@ -14,7 +14,7 @@
 @media only screen and (max-width: 478px) {
 
     .content {
-        grid-column: 1/4;
+        grid-column: 1/-1;
     }
 
     .container {

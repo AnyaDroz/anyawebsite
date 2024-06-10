@@ -12,7 +12,6 @@ type Props = {
 };
 export default function VideoBlock({
   src,
-  gridColumn,
   className,
   caption,
   textColor,
@@ -20,18 +19,14 @@ export default function VideoBlock({
   return (
     <Grid className={clsx(styles.container, className, textColor)}>
       <video
-        autoPlay
-        loop
-        style={{ gridColumn: gridColumn }}
+        controls
         className={styles.video}
         muted
+        poster="/images/echo-01.png"
       >
         <source src={src} type="video/mp4" />
       </video>
-      <p
-        className={styles.caption}
-        style={{ color: textColor, gridColumn: gridColumn }}
-      >
+      <p className={styles.caption} style={{ color: textColor }}>
         {caption}
       </p>
     </Grid>

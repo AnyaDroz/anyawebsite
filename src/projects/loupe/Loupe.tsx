@@ -8,8 +8,12 @@ import GridTwo from "../../case-study/image-layouts/GridTwo";
 
 import NavBar from "../../common/NavBar";
 
-import { PrototypeTwo, PrototypeOne } from "./LoupeVideos";
-import VideoBlock from "../../common/VideoBlock";
+import { VideoOne } from "./loupe-videos/VideoOne";
+import { VideoTwo } from "./loupe-videos/VideoTwo";
+import { VideoThree } from "./loupe-videos/VideoThree";
+import { VideoFour } from "./loupe-videos/VideoFour";
+import { VideoFive } from "./loupe-videos/VideoFive";
+import { VideoSix } from "./loupe-videos/VideoSix";
 
 const Loupe = () => {
   return (
@@ -29,7 +33,7 @@ const Loupe = () => {
         imageThree="/images/loupe-03.png"
         captionThree="(1c) Map view of locations"
       />
-      <PrototypeOne />
+      <VideoOne />
       <SubHeader
         heading="The problem"
         subHeading="The average travel consumer looks at 38 websites before making an online booking. Consumers often book across multiple platforms to coordinate a trip and tailor it to their preferences. "
@@ -176,7 +180,7 @@ const Loupe = () => {
         mobile="/images/loupe-14-mobile.png"
         caption="(5a) Low fidelity designs"
       />
-      <PrototypeTwo />
+      <VideoTwo />
       <SubHeader
         heading="Branding & Design system"
         subHeading="Loupe used an external agency for the fundamental brand guidelines - the logo, main colour palettes and typography. I then explored visual treatments and application of these to the product."
@@ -237,30 +241,10 @@ const Loupe = () => {
         captionOne="(7a) Colour palette"
         captionTwo="(7b) Component library"
       />
-      <VideoBlock
-        src={"/video/loupe-03.mp4"}
-        gridColumn="2/11"
-        textColor="black"
-        caption="(7c) Video layout"
-      />
-      <VideoBlock
-        src={"/video/loupe-04.mp4"}
-        gridColumn="2/11"
-        textColor="black"
-        caption="(7d) Header interaction I implemented with CSS"
-      />
-      <VideoBlock
-        src={"/video/loupe-05.mp4"}
-        gridColumn="2/11"
-        textColor="black"
-        caption="(7e) Video layering"
-      />
-      <VideoBlock
-        src={"/video/loupe-06.mp4"}
-        gridColumn="1/-1"
-        textColor="black"
-        caption="(7f) Custom loader designed and created in After Effects and exported as a Lottie file"
-      />
+      <VideoThree />
+      <VideoFour />
+      <VideoFive />
+      <VideoSix />
       <Paragraph>
         <p>
           Data from the first week of launch has 2,063 site events, 26 full
