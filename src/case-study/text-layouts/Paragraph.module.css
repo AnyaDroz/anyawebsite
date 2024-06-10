@@ -1,6 +1,7 @@
 .container {
     margin: 60px auto;
     row-gap: 0;
+
 }
 
 .container * {

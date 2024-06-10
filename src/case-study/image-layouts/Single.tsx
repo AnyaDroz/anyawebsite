@@ -30,7 +30,7 @@ export default function Single({
           <picture>
             <source media="(max-width: 478px)" srcSet={mobile} />
             <source media="(min-width: 1280px)" srcSet={image} />
-            <img src="/images/analogue-18.png" alt={caption} loading="lazy" />
+            <img src={image} alt={caption} loading="lazy" />
           </picture>
         </div>
         <p className={styles.caption}>{caption}</p>

@@ -1,0 +1,9 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--about-background-color);
+    color: var(--light-grey);
+    flex-grow: 1;
+    height: 100%;
+  
+}

@@ -1,5 +1,3 @@
-import "./Analogue.module.css";
-import Template from "../../case-study/text-layouts/Template";
 import Header from "../../case-study/text-layouts/Header";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import SubHeader from "../../case-study/text-layouts/SubHeader";
@@ -15,12 +13,12 @@ import { codeThree } from "./code-text";
 
 function Analogue() {
   return (
-    <Template>
+    <>
       <Header
-        tags="Design System, CSS variables, Design Tokens, UI"
         heading="Analogue Design System"
         subHeading="Using nested variables to create a white-labelled design system with a default, minimal Light & Dark theme."
         role="UI Designer"
+        tags="Design System, CSS variables, Design Tokens, UI"
       />
       <GridThree
         imageOne="/images/analogue-01.png"
@@ -235,7 +233,7 @@ function Analogue() {
         mobile="/images/analogue-24-mobile.png"
         caption="(9) Analogue in light & dark"
       />
-    </Template>
+    </>
   );
 }
 

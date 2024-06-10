@@ -1,0 +1,21 @@
+.scrollContainer {
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/*.scrollContainer::-webkit-scrollbar {*/
+/*    width: 0px;*/
+/*    background: transparent;*/
+/*}*/
+
+.workContent {
+    background-color: var(--case-study-page-background-color);
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}

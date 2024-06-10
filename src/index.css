@@ -12,15 +12,19 @@
     font-display: swap;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 
 body {
-    color: var(--text-color);
+    color: var(--case-study-text-color);
     margin: 0;
     padding: 0;
     font-family: 'rules-variable', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--page-background-color);
+    background-color: var(--case-study-page-background-color);
 }
 
 h1 {
@@ -63,10 +67,32 @@ p {
     line-height: 140%;
 }
 
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+    text-decoration: underline;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
 :root {
     --page-max-width: 1280px;
     --code-font: 13px/150% 'input-mono';
-    --page-background-color: #F6F6F6;
-    --text-color: #1F344D;
+    --blue: #1646d4;
+    --about-background-color: var(--blue);
+    --light-grey: #F6F6F6;
+    --dark-grey: #1F344D;
+    --case-study-page-background-color: var(--light-grey);
+    --case-study-text-color: var(--dark-grey);
 }
+
+
 

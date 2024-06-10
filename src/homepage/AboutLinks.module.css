@@ -1,0 +1,14 @@
+.links {
+    grid-column: 3 / 10;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container {
+    width: 100%;
+}
+
+.links * {
+    color: white;
+}

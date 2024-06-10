@@ -1,16 +1,30 @@
 import React from "react";
 import "./App.css";
-import Header from "./case-study/text-layouts/Header";
-import SubHeader from "./case-study/text-layouts/SubHeader";
-import Template from "./case-study/text-layouts/Template";
-import Paragraph from "./case-study/text-layouts/Paragraph";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Analogue from "./projects/analogue/Analogue";
 
+import Loupe from "./projects/loupe/Loupe";
+import Multi from "./projects/multi-transactions/Multi";
+import Echo from "./projects/echo/Echo";
+import Access from "./projects/instant-access/Access";
+import { AccordionPage } from "./homepage/Home";
+
 function App() {
+  // const location = useLocation();
   return (
-    <>
-      <Analogue />
-    </>
+    <div>
+      <Routes>
+        <Route path="/analogue" index element={<Analogue />} />
+        <Route path="/multi-transactions" index element={<Multi />} />
+        <Route path="/loupe" index element={<Loupe />} />
+        <Route path="/echo" index element={<Echo />} />
+        <Route path="/access" index element={<Access />} />
+        <Route path="/" element={<AccordionPage index={0} />}>
+          <Route path="about" element={<AccordionPage index={0} />} />
+          <Route path="work" element={<AccordionPage index={1} />} />
+        </Route>
+      </Routes>
+    </div>
   );
 }
 
