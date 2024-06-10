@@ -6,10 +6,12 @@ import Single from "../../case-study/image-layouts/Single";
 import SubHeader from "../../case-study/text-layouts/SubHeader";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
+import NavBar from "../../common/NavBar";
 
 const Access = () => {
   return (
     <>
+      <NavBar />
       <Header
         heading="Instant access"
         subHeading="Letting businesses try iwocaPay before sign up."

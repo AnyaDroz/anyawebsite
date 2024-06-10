@@ -5,10 +5,12 @@ import SubHeader from "../../case-study/text-layouts/SubHeader";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import Single from "../../case-study/image-layouts/Single";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
+import NavBar from "../../common/NavBar";
 
 const Multi = () => {
   return (
     <>
+      <NavBar />
       <Header
         heading="Multi-transactions"
         subHeading="Let buyers Pay later on multiple invoices at a time."

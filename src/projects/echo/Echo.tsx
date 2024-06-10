@@ -6,10 +6,13 @@ import SubHeader from "../../case-study/text-layouts/SubHeader";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
 import Single from "../../case-study/image-layouts/Single";
+import NavBar from "../../common/NavBar";
+import VideoBlock from "../../common/VideoBlock";
 
 const Echo = () => {
   return (
     <>
+      <NavBar />
       <Header
         heading="Echo Studio"
         subHeading="A story of two parts; A no-code software that showcases white-labelling functionality and our user experience to clients. An improved common front-end library and UX demonstrated in this new application."
@@ -180,7 +183,11 @@ const Echo = () => {
         captionOne="(2a) Default dark theme application"
         captionTwo="(2b) Default light theme application"
       />
-      <div>VIDEO</div>
+      <VideoBlock
+        src="/video/echo-01.mp4"
+        gridColumn={"1/11"}
+        textColor="black"
+      />
       <SubHeader
         heading="Echo studio"
         subHeading="Echo studio finally came to life on a separate project, but for the sake of this case study I will show the designs on the home page designs I created."

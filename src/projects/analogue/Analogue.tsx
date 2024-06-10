@@ -10,10 +10,12 @@ import Single from "../../case-study/image-layouts/Single";
 import { codeOne } from "./code-text";
 import { codeTwo } from "./code-text";
 import { codeThree } from "./code-text";
+import NavBar from "../../common/NavBar";
 
 function Analogue() {
   return (
     <>
+      <NavBar />
       <Header
         heading="Analogue Design System"
         subHeading="Using nested variables to create a white-labelled design system with a default, minimal Light & Dark theme."

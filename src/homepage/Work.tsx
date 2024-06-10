@@ -1,5 +1,4 @@
 import styles from "./Work.module.css";
-import GridThree from "../case-study/image-layouts/GridThree";
 import * as React from "react";
 import Project from "./Project";
 
@@ -11,53 +10,44 @@ export default function Work() {
           link="/echo"
           header="Echo studio"
           role="Lead designer and Angular developer"
-          image="/images/echo-10.png"
-          mobileImage="/images/echo-10.png"
-          tags=" Fintech, B2B2B, Editing software"
-          altText="echo"
+          image="/images/echo-cover.png"
+          mobileImage="/images/echo-cover-mobile.png"
+          tags=" Fintech, B2B2B, White-label UI"
+          altText="Editing software"
         />
         <Project
-          link="/echo"
+          link="/loupe"
           header="Loupe"
-          role="Lead designer and React developer"
-          image="/images/echo-10.png"
-          mobileImage="/images/echo-10.png"
+          role="Lead designer & React developer"
+          image="/images/loupe-cover.png"
+          mobileImage="/images/loupe-cover-mobile.png"
           tags="B2C, Marketplace, E-commerce, Publication"
           altText="echo"
         />
         <Project
-          link="/echo"
+          link="/multi-transactions"
           header="Multi-transactions"
+          role="Product designer"
+          image="/images/multi-cover.png"
+          mobileImage="/images/multi-cover-mobile.png"
+          tags="B2B, Fintech, Payments"
+          altText="echo"
+        />
+        <Project
+          link="/access"
+          header="Instant access"
           role="Lead designer and React developer"
-          image="/images/echo-10.png"
-          mobileImage="/images/echo-10.png"
+          image="/images/access-cover.png"
+          mobileImage="/images/access-cover-mobile.png"
           tags="b2c"
           altText="echo"
         />
         <Project
-          link="/echo"
-          header="Echo studio"
+          link="/analogue"
+          header="Analogue"
           role="Lead designer and React developer"
-          image="/images/echo-10.png"
-          mobileImage="/images/echo-10.png"
-          tags="b2c"
-          altText="echo"
-        />
-        <Project
-          link="/echo"
-          header="Echo studio"
-          role="Lead designer and React developer"
-          image="/images/echo-10.png"
-          mobileImage="/images/echo-10.png"
-          tags="b2c"
-          altText="echo"
-        />
-        <Project
-          link="/echo"
-          header="Echo studio"
-          role="Lead designer and React developer"
-          image="/images/echo-10.png"
-          mobileImage="/images/echo-10.png"
+          image="/images/analogue-cover.png"
+          mobileImage="/images/analogue-cover-mobile.png"
           tags="b2c"
           altText="echo"
         />

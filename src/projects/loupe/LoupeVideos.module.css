@@ -1,0 +1,9 @@
+.prototypeOne {
+    width: 100%;
+    background-color: black;
+}
+
+.prototypeTwo {
+    width: 100%;
+    background-color: var(--light-grey);
+}

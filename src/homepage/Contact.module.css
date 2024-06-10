@@ -1,9 +1,25 @@
-.contact {
-    display: flex;
-    flex-direction: column;
+.container {
     background-color: black;
     color: var(--light-grey);
     flex-grow: 1;
     height: 100%;
     width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    grid-column: 3/10;
+    gap: 8px;
+}
+
+
+@media only screen and (max-width: 478px) {
+
+    .contact {
+        grid-column: 1/-1;
+    }
+
 }

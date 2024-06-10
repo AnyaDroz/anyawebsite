@@ -1,7 +1,8 @@
 import { PropsWithChildren } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import styles from "./Homepage.module.css";
+import styles from "./AccordionPage.module.css";
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 
 type Props = {
   id: number;
@@ -9,6 +10,7 @@ type Props = {
   expanded: number;
   label: string;
   className: string;
+  accordionPath: string;
 };
 
 export const Accordion = ({
@@ -18,18 +20,24 @@ export const Accordion = ({
   children,
   label,
   className,
+  accordionPath,
 }: PropsWithChildren<Props>) => {
   const isOpen = id === expanded;
-
+  let navigate = useNavigate();
+  const routeChange = (e: React.MouseEvent) => {
+    let path = accordionPath;
+    navigate(path);
+    setExpanded(id);
+  };
   return (
     <>
       <motion.header
         id={`accordion-header-${id}`}
         initial={false}
-        onClick={() => setExpanded(id)}
+        onClick={routeChange}
         className={className}
       >
-        <h4 className={styles.header}> {label}</h4>
+        <p className={styles.header}>{label}</p>
       </motion.header>
       <AnimatePresence initial={false}>
         {isOpen && (

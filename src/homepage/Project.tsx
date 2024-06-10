@@ -29,8 +29,8 @@ export default function Project({
       <Grid className={styles.container}>
         <div className={styles.project}>
           <div className={styles.projectHeader}>
-            <h3>{header}</h3>
-            <p>{role}</p>
+            <h2>{header}</h2>
+            <p className={styles.role}>{role}</p>
           </div>
         </div>
       </Grid>

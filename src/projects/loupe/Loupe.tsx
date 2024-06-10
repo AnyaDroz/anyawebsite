@@ -5,11 +5,16 @@ import SubHeader from "../../case-study/text-layouts/SubHeader";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import Single from "../../case-study/image-layouts/Single";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
-import Template from "../../common/Template";
+
+import NavBar from "../../common/NavBar";
+
+import { PrototypeTwo, PrototypeOne } from "./LoupeVideos";
+import VideoBlock from "../../common/VideoBlock";
 
 const Loupe = () => {
   return (
-    <Template>
+    <>
+      <NavBar />
       <Header
         heading="Loupe"
         subHeading="Connecting the fragmented user experience for planning and booking trips. Loupe is a content-led subscription offering reviews of places to stay, activities to try, restaurants to book and an online store. It’s main features are creating mapped itiniraries and favourites lists."
@@ -24,7 +29,7 @@ const Loupe = () => {
         imageThree="/images/loupe-03.png"
         captionThree="(1c) Dark mode components"
       />
-      <div>VIDEO</div>
+      <PrototypeOne />
       <SubHeader
         heading="The problem"
         subHeading="The average travel consumer looks at 38 websites before making an online booking. Consumers often book across multiple platforms to coordinate a trip and tailor it to their preferences. "
@@ -171,7 +176,7 @@ const Loupe = () => {
         mobile="/images/loupe-14-mobile.png"
         caption="(3a) A clock component styled with one layer of css variables"
       />
-      <div>VIDEO</div>
+      <PrototypeTwo />
       <SubHeader
         heading="Branding & Design system"
         subHeading="Loupe used an external agency for the fundamental brand guidelines - the logo, main colour palettes and typography. I then explored visual treatments and application of these to the product."
@@ -232,10 +237,26 @@ const Loupe = () => {
         captionOne="(2a) Default dark theme application"
         captionTwo="(2b) Default light theme application"
       />
-      <div>VIDEO</div>
-      <div>VIDEO</div>
-      <div>VIDEO</div>
-      <div>VIDEO</div>
+      <VideoBlock
+        src={"/video/loupe-03.mp4"}
+        gridColumn="2/11"
+        textColor="black"
+      />
+      <VideoBlock
+        src={"/video/loupe-04.mp4"}
+        gridColumn="2/11"
+        textColor="black"
+      />
+      <VideoBlock
+        src={"/video/loupe-05.mp4"}
+        gridColumn="2/11"
+        textColor="black"
+      />
+      <VideoBlock
+        src={"/video/loupe-06.mp4"}
+        gridColumn="1/-1"
+        textColor="black"
+      />
       <Paragraph>
         <p>
           Data from the first week of launch has 2,063 site events, 26 full
@@ -268,7 +289,7 @@ const Loupe = () => {
         mobile="/images/loupe-30-mobile.png"
         caption="(3a) A clock component styled with one layer of css variables"
       />
-    </Template>
+    </>
   );
 };
 

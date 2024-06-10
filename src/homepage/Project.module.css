@@ -5,8 +5,7 @@ img {
 }
 
 .project {
-    grid-column: 3/11;
-
+    grid-column: 2/10;
 }
 
 .projectLink {
@@ -26,14 +25,33 @@ img {
     gap: 2px;
 }
 
+.projectHeader h2 {
+    font-weight: 600;
+}
+
+.caption {
+    font-size: 14px;
+}
+
 
 .content {
-    grid-column: 3/11;
+    grid-column: 2/12;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     gap: 6px;
+}
+
+@media only screen and (max-width: 478px) {
+
+    .content {
+        grid-column: 1/-1;
+    }
+
+    .project {
+        grid-column: 1/-1;
+    }
 }
 
 

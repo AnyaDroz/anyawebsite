@@ -11,6 +11,7 @@
 /*}*/
 
 .workContent {
+    padding: 40px 0;
     background-color: var(--case-study-page-background-color);
     height: 100%;
     position: absolute;
