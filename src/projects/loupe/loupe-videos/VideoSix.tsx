@@ -14,7 +14,9 @@ export const VideoSix = () => {
       >
         <source src="/video/loupe-06.mp4" type="video/mp4" />
       </video>
-      <p className={styles.caption}>(7d) Video overlay effect</p>
+      <p className={styles.caption}>
+        (7f) Custom loader design, creation and implementation
+      </p>
     </Grid>
   );
 };
