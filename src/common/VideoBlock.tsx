@@ -28,7 +28,10 @@ export default function VideoBlock({
       >
         <source src={src} type="video/mp4" />
       </video>
-      <p className={styles.caption} style={{ color: textColor }}>
+      <p
+        className={styles.caption}
+        style={{ color: textColor, gridColumn: gridColumn }}
+      >
         {caption}
       </p>
     </Grid>
