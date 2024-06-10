@@ -40,7 +40,7 @@ export default function Work() {
           image="/images/access-cover.png"
           mobileImage="/images/access-cover-mobile.png"
           tags="B2B, Payments, Onbaording, Forms"
-          altText="Instand access"
+          altText="Instant access"
         />
         <Project
           link="/analogue"
