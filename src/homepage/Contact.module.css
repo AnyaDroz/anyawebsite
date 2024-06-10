@@ -1,6 +1,6 @@
 .container {
-    background-color: black;
-    color: var(--light-grey);
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
     flex-grow: 1;
     height: 100%;
     width: 100%;

@@ -27,8 +27,8 @@
 }
 
 .contact {
-    background-color: black;
-    color: var(--light-grey);
+    background-color: var(--case-study-page-background-color);
+    color: var(--case-study-text-color);
 }
 
 
