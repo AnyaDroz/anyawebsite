@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/echo/VideoOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/echo/VideoOne.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoFive.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoFive.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoSix.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loupe/loupe-videos/VideoSix.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage/AboutLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage/AboutLinks.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +64,11 @@
       <recent name="$PROJECT_DIR$/public/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/projects/loupe/loupe-videos" />
       <recent name="$PROJECT_DIR$/src/case-study/case-study-text-layouts" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public/fonts" />
-      <recent name="$PROJECT_DIR$/src/case-study" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +83,7 @@
       <workItem from="1717820857402" duration="8802000" />
       <workItem from="1717956967620" duration="5230000" />
       <workItem from="1717965045973" duration="883000" />
-      <workItem from="1718000423845" duration="29627000" />
+      <workItem from="1718000423845" duration="30386000" />
     </task>
     <servers />
   </component>
