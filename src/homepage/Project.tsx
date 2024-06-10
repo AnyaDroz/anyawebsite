@@ -40,7 +40,7 @@ export default function Project({
             <picture>
               <source media="(max-width: 478px)" srcSet={mobileImage} />
               <source media="(min-width: 1280px)" srcSet={image} />
-              <img src={image} alt={altText} loading={eager} />
+              <img src={image} alt={altText} loading="eager" />
             </picture>
           </div>
           <p className={styles.caption}>{tags}</p>
