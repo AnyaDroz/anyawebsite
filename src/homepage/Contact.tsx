@@ -9,7 +9,7 @@ export default function Contact() {
       <div className={styles.contact}>
         <p>anya.drozdova89@gmail.com</p>
         <p>+44 7426728951</p>
-        <p>Based in London.</p>
+        <p>Based in London</p>
       </div>
     </Grid>
   );
