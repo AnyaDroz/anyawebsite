@@ -19,11 +19,11 @@ const Multi = () => {
       />
       <GridThree
         imageOne="/images/multi-01.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(1a) Overdue payment notifications"
         imageTwo="/images/multi-02.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(1b) Invoice management dashboard"
         imageThree="/images/multi-03.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(1c) Payment visualisations"
       />
       <SubHeader
         heading="The problem"
@@ -41,29 +41,29 @@ const Multi = () => {
         layout="full"
         image="/images/multi-04.png"
         mobile="/images/echo-04-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2a) Repayment management"
       />
       <Single
         layout="end"
         image="/images/multi-05.png"
         mobile="/images/multi-05-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2b) Mobile friendly dashboard"
       />
       <GridTwo
         imageOne="/images/multi-06.png"
         imageTwo="/images/multi-07.png"
         mobileOne="/images/multi-06-mobile.png"
         mobileTwo="/images/multi-07-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(2c) Overdue payment notification"
+        captionTwo="(2d) Dashboard referrals"
       />
       <GridTwo
         imageOne="/images/multi-08.png"
         imageTwo="/images/multi-09.png"
         mobileOne="/images/multi-08-mobile.png"
         mobileTwo="/images/multi-09-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(2e) Calendar components"
+        captionTwo="(2d) Payment visualisations"
       />
       <Paragraph>
         <p>
@@ -82,8 +82,8 @@ const Multi = () => {
         imageTwo="/images/multi-11.png"
         mobileOne="/images/multi-10-mobile.png"
         mobileTwo="/images/multi-11-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(3a) Payable invoices businesses receive per month"
+        captionTwo="(3b) Proportion of businesses using Pay later more than once"
       />
       <Paragraph>
         <p>
@@ -111,8 +111,8 @@ const Multi = () => {
         imageTwo="/images/multi-13.png"
         mobileOne="/images/multi-12-mobile.png"
         mobileTwo="/images/multi-13-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(4a) User flow map"
+        captionTwo="(4b) Dashboard states"
       />
       <Paragraph>
         <p>
@@ -139,8 +139,8 @@ const Multi = () => {
         imageTwo="/images/multi-15.png"
         mobileOne="/images/multi-14-mobile.png"
         mobileTwo="/images/multi-15-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(5a) Understanding the priorities in what users wanted to see"
+        captionTwo="(5b) Users wanted to see next repayments, what’s left to repay and remaining credit, in that order"
       />
       <SubHeader
         heading="Low fidelity"
@@ -159,7 +159,7 @@ const Multi = () => {
         layout="full"
         image="/images/multi-16.png"
         mobile="/images/multi-16-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(6) Low fidelity design exploration"
       />
       <Paragraph>
         <p>
@@ -173,23 +173,23 @@ const Multi = () => {
         layout="full"
         image="/images/multi-17.png"
         mobile="/images/multi-17-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(7a) Desktop screenshot"
       />
       <GridTwo
         imageOne="/images/multi-18.png"
         imageTwo="/images/multi-19.png"
         mobileOne="/images/multi-18-mobile.png"
         mobileTwo="/images/multi-19-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(7b) Pending invoice notification"
+        captionTwo="(7c) Invoice visualisations"
       />
       <GridTwo
         imageOne="/images/multi-20.png"
         imageTwo="/images/multi-21.png"
         mobileOne="/images/multi-20-mobile.png"
         mobileTwo="/images/multi-21-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(7d) Invoice additional information display"
+        captionTwo="(7e) Mobile overdue invoice"
       />
       <SubHeader
         heading="User testing"
@@ -224,7 +224,7 @@ const Multi = () => {
         layout="full"
         image="/images/multi-22.png"
         mobile="/images/multi-22-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(8) Mobile device example"
       />
       <Paragraph>
         <p>

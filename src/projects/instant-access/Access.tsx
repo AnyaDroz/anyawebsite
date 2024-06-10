@@ -14,35 +14,35 @@ const Access = () => {
       <NavBar />
       <Header
         heading="Instant access"
-        subHeading="Letting businesses try iwocaPay before sign up."
+        subHeading="Letting businesses try iwocaPay before sign up"
         role="Product Designer"
         tags="Design System, CSS variables, Design Tokens, UI"
       />
       <GridThree
         imageOne="/images/access-01.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(1a) Onboarding widget"
         imageTwo="/images/access-02.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(1b) Custom illustration"
         imageThree="/images/access-03.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(1c) Simple forms"
       />
       <Single
         layout="end"
         image="/images/access-04.png"
         mobile="/images/access-04-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(1d) Component designs"
       />
       <Single
         layout="full"
         image="/images/access-05.png"
         mobile="/images/access-05-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(1e) Mobile screens of the journey"
       />
       <Single
         layout="full"
         image="/images/access-06.png"
         mobile="/images/access-06-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(1f) With instant access users can explore their account - including previews of their checkouts and demo data in their dashboard"
       />
       <SubHeader
         heading="The problem"
@@ -75,14 +75,14 @@ const Access = () => {
         imageTwo="/images/access-08.png"
         mobileOne="/images/access-07-mobile.png"
         mobileTwo="/images/access-08-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(2a) Industry segmentation was being captured manually"
+        captionTwo="(2b) How merchants used iwocaPay after sign up"
       />
       <Single
         layout="start"
         image="/images/access-09.png"
         mobile="/images/access-09-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2c) The hypothesised solution was an instant access dashboard"
       />
       <SubHeader
         heading="New user journey"
@@ -104,22 +104,22 @@ const Access = () => {
         imageTwo="/images/access-11.png"
         mobileOne="/images/access-10-mobile.png"
         mobileTwo="/images/access-11-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(3a) Users will now be able to explore their account in parallel to sign up"
+        captionTwo="(3b) Exploration of sign up in an expandable side panel"
       />
       <GridTwo
         imageOne="/images/access-12.png"
         imageTwo="/images/access-13.png"
         mobileOne="/images/access-12-mobile.png"
         mobileTwo="/images/access-13-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(3c) Exploration of sign up on a get started page"
+        captionTwo="(3d) Fields that will need to be captured in the 3 steps"
       />
       <Single
         layout="full"
         image="/images/access-14.png"
         mobile="/images/access-14-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(3e) Account activation within the users’ new account - previously this information was a huge burden on our Ops team"
       />
       <Paragraph>
         <p>
@@ -142,19 +142,19 @@ const Access = () => {
       </Paragraph>
       <GridThree
         imageOne="/images/access-15.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(4a) Onboarding widget step 1"
         imageTwo="/images/access-16.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(4b)  Onboarding widget step 2"
         imageThree="/images/access-17.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(4c)  Onboarding widget step 3"
       />
       <GridTwo
         imageOne="/images/access-18.png"
         imageTwo="/images/access-19.png"
         mobileOne="/images/access-18-mobile.png"
         mobileTwo="/images/access-19-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(4d) New get started page"
+        captionTwo="(4e) Expandable activation steps"
       />
       <Paragraph>
         <p>
@@ -187,13 +187,13 @@ const Access = () => {
         layout="end"
         image="/images/access-20.png"
         mobile="/images/access-20-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(5a) Mobile form design"
       />
       <Single
         layout="full"
         image="/images/access-21.png"
         mobile="/images/access-21-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(5b) Custom illustration and single step sign in to the user’s dashboard"
       />
     </>
   );

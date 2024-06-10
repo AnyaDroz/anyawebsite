@@ -29,11 +29,11 @@ const Echo = () => {
       />
       <GridThree
         imageOne="/images/echo-04.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(1d) Guidelines on introducing user lifetime states"
         imageTwo="/images/echo-05.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(1e) A focus on the mobile experience"
         imageThree="/images/echo-06.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(1f) New modern design system hosted in echo-studio"
       />
       <SubHeader
         heading="The problem (s)"
@@ -68,26 +68,26 @@ const Echo = () => {
         imageTwo="/images/echo-08.png"
         mobileOne="/images/echo-07-mobile.png"
         mobileTwo="/images/echo-08-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(2a) Cutting costs through with technical improvements"
+        captionTwo="(2b) Improving the quality of the interface and experience to attract clients"
       />
       <Single
         layout="start"
         image="/images/echo-09.png"
         mobile="/images/echo-09-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(3a) A new component library that all teams would use, and can be reskinned to a client brand in under a day"
       />
       <Single
         layout="start"
         image="/images/echo-10.png"
         mobile="/images/echo-10-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(3b) Creating empty states and trend insights as an MVP to merchant states"
       />
       <Single
         layout="start"
         image="/images/echo-11.png"
         mobile="/images/echo-11-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(3c) Showcase the product - in their theme - in live across any device"
       />
       <SubHeader
         heading="Design System & FE library"
@@ -95,33 +95,33 @@ const Echo = () => {
       />
       <GridThree
         imageOne="/images/echo-12.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(4a) A design system with no variables"
         imageTwo="/images/echo-13.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(4b) A standard design system with tokens and global variables"
         imageThree="/images/echo-14.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(4c) A white-labelled design system with nested variables and a middle layer"
       />
       <Single
         layout="full"
         image="/images/echo-15.png"
         mobile="/images/echo-15-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(4d) Colour themes programmatically generated with css color-mix"
       />
       <GridTwo
         imageOne="/images/echo-16.png"
         imageTwo="/images/echo-17.png"
         mobileOne="/images/echo-16-mobile.png"
         mobileTwo="/images/echo-17-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(4e) Navigation component"
+        captionTwo="(4f) Each theme has 4 subset themes"
       />
       <GridTwo
         imageOne="/images/echo-18.png"
         imageTwo="/images/echo-19.png"
         mobileOne="/images/echo-18-mobile.png"
         mobileTwo="/images/echo-19-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(4g) Thoughtful considertations with empty states"
+        captionTwo="(4h) Encouraging engagement with trends and insights"
       />
       <SubHeader
         heading="Improved UX in the common portal"
@@ -147,13 +147,13 @@ const Echo = () => {
         layout="full"
         image="/images/echo-20.png"
         mobile="/images/echo-20-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(5a) Encouraging engagement with trends and insights"
       />
       <Single
         layout="full"
         image="/images/echo-21.png"
         mobile="/images/echo-21-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(5b) The reasoning behind the structure of the page"
       />
       <SubHeader
         heading="POC Echo-studio"
@@ -180,13 +180,14 @@ const Echo = () => {
         imageTwo="/images/echo-23.png"
         mobileOne="/images/echo-22-mobile.png"
         mobileTwo="/images/echo-23-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(6a) Currently the only way of showing the product and our offering was a word doc"
+        captionTwo="(6b) Our front-end library had custom theme files at component level - with manual, hard-coded values"
       />
       <VideoBlock
         src="/video/echo-01.mp4"
         gridColumn={"1/11"}
         textColor="black"
+        caption="(6c) Video of the POC to create a demo and rebranding tool using storybook"
       />
       <SubHeader
         heading="Echo studio"
@@ -220,48 +221,48 @@ const Echo = () => {
         imageTwo="/images/echo-25.png"
         mobileOne="/images/echo-24-mobile.png"
         mobileTwo="/images/echo-25-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(7a) Simple design system for Echo studio"
+        captionTwo="(7b) Echo studio components"
       />
       <Single
         layout="start"
         image="/images/echo-26.png"
         mobile="/images/echo-26-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(7c) Modify colours, typography, border radius and more at a component level"
       />
       <Single
         layout="full"
         image="/images/echo-27.png"
         mobile="/images/echo-27-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(7d) Echo studio is essentially a side panel of tools"
       />
       <Single
         layout="full"
         image="/images/echo-28.png"
         mobile="/images/echo-28-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(7e) Reskin the application to any theme"
       />
       <GridTwo
         imageOne="/images/echo-29.png"
         imageTwo="/images/echo-30.png"
         mobileOne="/images/echo-29-mobile.png"
         mobileTwo="/images/echo-30-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(7f) View the application on mobile"
+        captionTwo="(7g) View the application on tablet"
       />
       <GridTwo
         imageOne="/images/echo-31.png"
         imageTwo="/images/echo-32.png"
         mobileOne="/images/echo-31-mobile.png"
         mobileTwo="/images/echo-32-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(7h) Select a user view of the application"
+        captionTwo="(7i) Understand all the states the app can appear in"
       />
       <Single
         layout="full"
         image="/images/echo-33.png"
         mobile="/images/echo-33-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(7f) The application in two additional themes"
       />
     </>
   );

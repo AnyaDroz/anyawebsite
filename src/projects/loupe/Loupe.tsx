@@ -23,11 +23,11 @@ const Loupe = () => {
       />
       <GridThree
         imageOne="/images/loupe-01.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(1a) Mobile version of the homepage"
         imageTwo="/images/loupe-02.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(1b) Carousel interaction"
         imageThree="/images/loupe-03.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(1c) Map view of locations"
       />
       <PrototypeOne />
       <SubHeader
@@ -53,25 +53,25 @@ const Loupe = () => {
         layout="full"
         image="/images/loupe-04.png"
         mobile="/images/loupe-04-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2a) Favourites list on mobile"
       />
       <Single
         layout="end"
         image="/images/loupe-05.png"
         mobile="/images/loupe-05-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2b) Finding places to eat"
       />
       <Single
         layout="start"
         image="/images/loupe-06.png"
         mobile="/images/loupe-06-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2d) E-commerce on Loupe with custom UI illustration"
       />
       <Single
         layout="end"
         image="/images/loupe-07.png"
         mobile="/images/loupe-07-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(2e) Desktop and mobile maps of locations"
       />
       <SubHeader
         heading="Research"
@@ -105,16 +105,16 @@ const Loupe = () => {
         imageTwo="/images/loupe-09.png"
         mobileOne="/images/loupe-08-mobile.png"
         mobileTwo="/images/loupe-09-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(3a) Customer purchasing journey"
+        captionTwo="(3b) Extract from the service map created for Loupe"
       />
       <GridTwo
         imageOne="/images/loupe-10.png"
         imageTwo="/images/loupe-11.png"
         mobileOne="/images/loupe-10-mobile.png"
         mobileTwo="/images/loupe-11-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(3c) Booking-led vs Content-led"
+        captionTwo="3d) Example, Trippin vs Air bnb"
       />
       <Paragraph>
         <p>
@@ -146,8 +146,8 @@ const Loupe = () => {
         imageTwo="/images/loupe-13.png"
         mobileOne="/images/loupe-12-mobile.png"
         mobileTwo="/images/loupe-13-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(4a) V1 Site map"
+        captionTwo="(4b) V1 User flows"
       />
       <SubHeader
         heading="Low fidelity and first prototype"
@@ -174,7 +174,7 @@ const Loupe = () => {
         layout="full"
         image="/images/loupe-14.png"
         mobile="/images/loupe-14-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(5a) Low fidelity designs"
       />
       <PrototypeTwo />
       <SubHeader
@@ -198,27 +198,27 @@ const Loupe = () => {
       </Paragraph>
       <GridThree
         imageOne="/images/loupe-15.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(6a) Cut out circle overlay"
         imageTwo="/images/loupe-16.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(6b) Warped lettering"
         imageThree="/images/loupe-17.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="6c) Clever placement"
       />
       <GridThree
         imageOne="/images/loupe-18.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(6d) Cut out warped ‘O’"
         imageTwo="/images/loupe-19.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(6e) Cut out warped ‘O’ ii"
         imageThree="/images/loupe-20.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(6f) Simple layering and collage"
       />
       <GridThree
         imageOne="/images/loupe-21.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(6g) Placement ii"
         imageTwo="/images/loupe-22.png"
-        captionTwo="(1b) Selection of light mode components"
+        captionTwo="(6h) Placement iii"
         imageThree="/images/loupe-23.png"
-        captionThree="(1c) Dark mode components"
+        captionThree="(6i) Hand written"
       />
       <Paragraph>
         <p>
@@ -234,28 +234,32 @@ const Loupe = () => {
         imageTwo="/images/loupe-25.png"
         mobileOne="/images/loupe-24-mobile.png"
         mobileTwo="/images/loupe-25-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(7a) Colour palette"
+        captionTwo="(7b) Component library"
       />
       <VideoBlock
         src={"/video/loupe-03.mp4"}
         gridColumn="2/11"
         textColor="black"
+        caption="(7c) Video layout"
       />
       <VideoBlock
         src={"/video/loupe-04.mp4"}
         gridColumn="2/11"
         textColor="black"
+        caption="(7d) Header interaction I implemented with CSS"
       />
       <VideoBlock
         src={"/video/loupe-05.mp4"}
         gridColumn="2/11"
         textColor="black"
+        caption="(7e) Video layering"
       />
       <VideoBlock
         src={"/video/loupe-06.mp4"}
         gridColumn="1/-1"
         textColor="black"
+        caption="(7f) Custom loader designed and created in After Effects and exported as a Lottie file"
       />
       <Paragraph>
         <p>
@@ -272,22 +276,22 @@ const Loupe = () => {
         imageTwo="/images/loupe-27.png"
         mobileOne="/images/loupe-26-mobile.png"
         mobileTwo="/images/loupe-27-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(8a) Mobile concept for the Itinerary Shuffler"
+        captionTwo="(8b) Carousel design and implementation"
       />
       <GridTwo
         imageOne="/images/loupe-28.png"
         imageTwo="/images/loupe-29.png"
         mobileOne="/images/loupe-28-mobile.png"
         mobileTwo="/images/loupe-29-mobile.png"
-        captionOne="(2a) Default dark theme application"
-        captionTwo="(2b) Default light theme application"
+        captionOne="(8b) Example of content filtering"
+        captionTwo="(8c) Search and footer designs"
       />
       <Single
         layout="end"
         image="/images/loupe-30.png"
         mobile="/images/loupe-30-mobile.png"
-        caption="(3a) A clock component styled with one layer of css variables"
+        caption="(8d) Desktop example of favourites list"
       />
     </>
   );

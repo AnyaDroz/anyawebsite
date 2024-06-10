@@ -8,7 +8,7 @@ export const PrototypeOne = () => {
       src="/video/loupe-01.mp4"
       gridColumn="5/9"
       className={styles.prototypeOne}
-      caption="(Vid-01) Loupe prototype"
+      caption="(2c) Loupe prototype"
       textColor="white"
     />
   );
@@ -20,7 +20,7 @@ export const PrototypeTwo = () => {
       src="/video/loupe-02.mp4"
       gridColumn="5/9"
       className={styles.prototypeTwo}
-      caption="(Vid-02) Loupe prototype"
+      caption="(5b) First prototype using Protopie"
       textColor="black"
     />
   );
