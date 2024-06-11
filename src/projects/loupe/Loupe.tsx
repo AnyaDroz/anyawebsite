@@ -5,15 +5,9 @@ import SubHeader from "../../case-study/text-layouts/SubHeader";
 import Paragraph from "../../case-study/text-layouts/Paragraph";
 import Single from "../../case-study/image-layouts/Single";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
-
 import NavBar from "../../common/NavBar";
-
-import { VideoOne } from "./loupe-videos/VideoOne";
-import { VideoTwo } from "./loupe-videos/VideoTwo";
-import { VideoThree } from "./loupe-videos/VideoThree";
-import { VideoFour } from "./loupe-videos/VideoFour";
-import { VideoFive } from "./loupe-videos/VideoFive";
-import { VideoSix } from "./loupe-videos/VideoSix";
+import { VideoBlock } from "../../common/VideoBlock";
+import { VideoBlockTwo } from "../../common/VideoBlockTwo";
 
 const Loupe = () => {
   return (
@@ -33,7 +27,12 @@ const Loupe = () => {
         imageThree="/images/loupe-03.png"
         captionThree="(1c) Map view of locations"
       />
-      <VideoOne />
+      <VideoBlockTwo
+        src="/video/loupe-01.mp4"
+        placeholder="/images/loupe-video-01.png"
+        caption="(2c) Loupe prototype"
+        color="black"
+      />
       <SubHeader
         heading="The problem"
         subHeading="The average travel consumer looks at 38 websites before making an online booking. Consumers often book across multiple platforms to coordinate a trip and tailor it to their preferences. "
@@ -180,7 +179,12 @@ const Loupe = () => {
         mobile="/images/loupe-14-mobile.png"
         caption="(5a) Low fidelity designs"
       />
-      <VideoTwo />
+      <VideoBlockTwo
+        src="/video/loupe-02.mp4"
+        placeholder="/images/loupe-video-02.png"
+        caption="(5b) Loupe prototype"
+        color=" #F6F6F6"
+      />
       <SubHeader
         heading="Branding & Design system"
         subHeading="Loupe used an external agency for the fundamental brand guidelines - the logo, main colour palettes and typography. I then explored visual treatments and application of these to the product."
@@ -241,10 +245,26 @@ const Loupe = () => {
         captionOne="(7a) Colour palette"
         captionTwo="(7b) Component library"
       />
-      <VideoThree />
-      <VideoFour />
-      <VideoFive />
-      <VideoSix />
+      <VideoBlock
+        src="/video/loupe-03.mp4"
+        placeholder="/images/loupe-video-03.png"
+        caption="(7c) Video overlay effect"
+      />
+      <VideoBlock
+        src="/video/loupe-05.mp4"
+        placeholder="/images/loupe-video-04.png"
+        caption="(7d) Video overlay effect"
+      />
+      <VideoBlock
+        src="/video/loupe-05.mp4"
+        placeholder="/images/loupe-video-05.png"
+        caption="(7e) Video overlay effect"
+      />
+      <VideoBlock
+        src="/video/loupe-06.mp4"
+        placeholder="/images/loupe-video-06.png"
+        caption=" (7f) Custom loader design, creation and implementation"
+      />
       <Paragraph>
         <p>
           Data from the first week of launch has 2,063 site events, 26 full

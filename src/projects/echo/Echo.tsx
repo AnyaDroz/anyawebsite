@@ -7,7 +7,7 @@ import Paragraph from "../../case-study/text-layouts/Paragraph";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
 import Single from "../../case-study/image-layouts/Single";
 import NavBar from "../../common/NavBar";
-import { VideoOne } from "./VideoOne";
+import { VideoBlock } from "../../common/VideoBlock";
 
 const Echo = () => {
   return (
@@ -183,7 +183,11 @@ const Echo = () => {
         captionOne="(6a) Currently the only way of showing the product and our offering was a word doc"
         captionTwo="(6b) Our front-end library had custom theme files at component level - with manual, hard-coded values"
       />
-      <VideoOne />
+      <VideoBlock
+        src="/video/echo-01.mp4"
+        placeholder="/images/echo-video-01.png"
+        caption="(6c) Storybook implementation"
+      />
       <SubHeader
         heading="Echo studio"
         subHeading="Echo studio finally came to life on a separate project, but for the sake of this case study I will show the designs on the home page designs I created."
