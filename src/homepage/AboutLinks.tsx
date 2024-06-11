@@ -14,9 +14,6 @@ export default function AboutLinks() {
         <a href="https://www.linkedin.com/in/anya-drozdova" target="_blank">
           LinkedIn
         </a>
-        <a href="https://www.linkedin.com/in/anya-drozdova" target="_blank">
-          LinkedIn
-        </a>
         <a
           href="https://infern0tes.notion.site/Anya-Drozdova-1cf9b18259a04b84a739591f7f3275b1"
           target="_blank"
