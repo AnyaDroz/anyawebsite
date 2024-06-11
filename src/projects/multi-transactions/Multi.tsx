@@ -40,7 +40,7 @@ const Multi = () => {
       <Single
         layout="full"
         image="/images/multi-04.png"
-        mobile="/images/echo-04-mobile.png"
+        mobile="/images/multi-04-mobile.png"
         caption="(2a) Repayment management"
       />
       <Single
