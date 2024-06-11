@@ -19,7 +19,7 @@ export default function About() {
             both at the macro level of winning a users’ attention, to the micro
             level of components and consistent, flexible design systems.
           </p>
-          <p>Website built with React & Framer.</p>
+          <p>Website built with React.</p>
         </div>
       </Grid>
       <AboutLinks />
