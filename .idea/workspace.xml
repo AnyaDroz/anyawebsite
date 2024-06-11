@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="" />
+    <list default="true" id="660d51a8-2ea8-407f-978f-237624be03cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/analogue/Analogue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/analogue/Analogue.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/echo/Echo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/echo/Echo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/instant-access/Access.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/instant-access/Access.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loupe/Loupe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loupe/Loupe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/multi-transactions/Multi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/multi-transactions/Multi.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +88,7 @@
       <workItem from="1717956967620" duration="5230000" />
       <workItem from="1717965045973" duration="883000" />
       <workItem from="1718000423845" duration="31970000" />
+      <workItem from="1718078206838" duration="589000" />
     </task>
     <servers />
   </component>
@@ -92,7 +101,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/projects/loupe/Loupe.tsx</url>
           <line>250</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

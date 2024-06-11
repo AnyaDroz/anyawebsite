@@ -16,7 +16,7 @@ const Access = () => {
         heading="Instant access"
         subHeading="Letting businesses try iwocaPay before sign up"
         role="Product Designer"
-        tags="Design System, CSS variables, Design Tokens, UI"
+        tags="B2B, Payments, Onbaording, Forms"
       />
       <GridThree
         imageOne="/images/access-01.png"

@@ -7,7 +7,6 @@ import Paragraph from "../../case-study/text-layouts/Paragraph";
 import GridTwo from "../../case-study/image-layouts/GridTwo";
 import Single from "../../case-study/image-layouts/Single";
 import NavBar from "../../common/NavBar";
-import VideoBlock from "../../common/VideoBlock";
 import { VideoOne } from "./VideoOne";
 
 const Echo = () => {
@@ -18,7 +17,7 @@ const Echo = () => {
         heading="Echo Studio"
         subHeading="A story of two parts; A no-code software that showcases white-labelling functionality and our user experience to clients. An improved common front-end library and UX demonstrated in this new application."
         role="Product Designer & Angular Developer"
-        tags="Design System, CSS variables, Design Tokens, UI"
+        tags="Fintech, B2B2B, White-label UI"
       />
       <GridThree
         imageOne="/images/echo-01.png"

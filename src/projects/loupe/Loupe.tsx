@@ -23,7 +23,7 @@ const Loupe = () => {
         heading="Loupe"
         subHeading="Connecting the fragmented user experience for planning and booking trips. Loupe is a content-led subscription offering reviews of places to stay, activities to try, restaurants to book and an online store. It’s main features are creating mapped itiniraries and favourites lists."
         role="Lead Product Designer & React Developer"
-        tags="Design System, CSS variables, Design Tokens, UI"
+        tags="B2C, Marketplace, E-commerce, Publication"
       />
       <GridThree
         imageOne="/images/loupe-01.png"

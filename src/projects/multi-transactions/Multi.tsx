@@ -15,7 +15,7 @@ const Multi = () => {
         heading="Multi-transactions"
         subHeading="Let buyers Pay later on multiple invoices at a time."
         role="Lead Product Designer & React Developer"
-        tags="Design System, CSS variables, Design Tokens, UI"
+        tags="B2B, Fintech, Payments"
       />
       <GridThree
         imageOne="/images/multi-01.png"

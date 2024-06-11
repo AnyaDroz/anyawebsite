@@ -12,7 +12,7 @@ export default function Work() {
           role="Lead designer and Angular developer"
           image="/images/echo-cover.png"
           mobileImage="/images/echo-cover-mobile.png"
-          tags=" Fintech, B2B2B, White-label UI"
+          tags="Fintech, B2B2B, White-label UI"
           altText="Editing software"
         />
         <Project

@@ -20,7 +20,7 @@ function Analogue() {
         heading="Analogue Design System"
         subHeading="Using nested variables to create a white-labelled design system with a default, minimal Light & Dark theme."
         role="UI Designer"
-        tags="Design System, CSS variables, Design Tokens, UI"
+        tags="Design Systems, Components, Tokens"
       />
       <GridThree
         imageOne="/images/analogue-01.png"
