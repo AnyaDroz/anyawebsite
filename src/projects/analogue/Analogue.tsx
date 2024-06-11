@@ -45,9 +45,9 @@ function Analogue() {
         </p>
         <p>
           The solution for this is a nested variable system used by companies
-          such as Material and Adobe usually referred to as <b>design tokens</b>{" "}
-          This is not to be confused with a single layer of variable such as
-          defining an accent colour.
+          such as Material and Adobe usually referred to as design tokens This
+          is not to be confused with a single layer of variable such as defining
+          an accent colour.
         </p>
       </Paragraph>
       <SubHeader
@@ -60,8 +60,8 @@ function Analogue() {
           for light mode and dark mode. This can be rebranded on two levels - a
           basic re-skin where the main colours are changed, down to component
           level changes - all within the css file. There are two key differences
-          between this and a standard design system. The use of a{" "}
-          <b>component variables</b> and alias variables.
+          between this and a standard design system. The use of a component
+          variables and alias variables.
         </p>
       </Paragraph>
       <GridTwo
@@ -78,8 +78,8 @@ function Analogue() {
           for simple switching of themes across the basic properties - as you
           can see above - most of the styles are just an inversion or simple
           switch of colours. These css variables are usually written as
-          <b>--global-colour-accent</b> as an example. Their role is for
-          capturing values for consistency.
+          --global-colour-accent as an example. Their role is for capturing
+          values for consistency.
         </p>
         <p>
           The clock however, has style overrides to the default to demonstrate

@@ -125,7 +125,7 @@ const Echo = () => {
       />
       <SubHeader
         heading="Improved UX in the common portal"
-        subHeading="Ease of use was the top reason for choosing a POS (28%) above functionality (27%) and Price (20%) in a survey by Capterra. Source"
+        subHeading="Ease of use was the top reason for choosing a POS (28%) above functionality (27%) and Price (20%) in a survey by Capterra."
       />
       <Paragraph>
         <p>
