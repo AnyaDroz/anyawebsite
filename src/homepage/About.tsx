@@ -1,5 +1,4 @@
 import styles from "./About.module.css";
-import Paragraph from "../case-study/text-layouts/Paragraph";
 import AboutLinks from "./AboutLinks";
 import Grid from "../common/Grid";
 import clsx from "clsx";
