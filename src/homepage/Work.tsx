@@ -36,16 +36,16 @@ export default function Work() {
         <Project
           link="/access"
           header="Instant access"
-          role="Lead designer and React developer"
+          role="Product designer"
           image="/images/access-cover.png"
           mobileImage="/images/access-cover-mobile.png"
-          tags="B2B, Payments, Onbaording, Forms"
+          tags="B2B, Payments, Onboarding, Forms"
           altText="Instant access"
         />
         <Project
           link="/analogue"
           header="Analogue"
-          role="Lead designer and React developer"
+          role="Systems designer"
           image="/images/analogue-cover.png"
           mobileImage="/images/analogue-cover-mobile.png"
           tags="Design Systems, Components, Tokens"
