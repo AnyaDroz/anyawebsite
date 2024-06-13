@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Analogue from "./projects/analogue/Analogue";
-
+import { Analytics } from "@vercel/analytics/react";
 import Loupe from "./projects/loupe/Loupe";
 import Multi from "./projects/multi-transactions/Multi";
 import Echo from "./projects/echo/Echo";
@@ -24,6 +24,7 @@ function App() {
         <Route path="work" element={<AccordionPage index={1} />} />
         <Route path="contact" element={<AccordionPage index={2} />} />
       </Routes>
+      <Analytics />
     </div>
   );
 }
