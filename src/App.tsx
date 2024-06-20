@@ -20,8 +20,9 @@ function App() {
         <Route path="/echo" index element={<Echo />} />
         <Route path="/access" index element={<Access />} />
         <Route path="/" element={<AccordionPage index={0} />} />
-        <Route path="about" element={<AccordionPage index={0} />} />
-        <Route path="work" element={<AccordionPage index={1} />} />
+
+        <Route path="work" element={<AccordionPage index={0} />} />
+        <Route path="about" element={<AccordionPage index={1} />} />
         <Route path="contact" element={<AccordionPage index={2} />} />
       </Routes>
       <Analytics />
