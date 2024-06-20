@@ -29,6 +29,7 @@
 .contact {
     background-color: var(--case-study-page-background-color);
     color: var(--case-study-text-color);
+    border-bottom: 1px solid var(--dark-grey);
 }
 
 
