@@ -16,24 +16,24 @@ export const AccordionPage = ({ index = 0 }: Props) => {
   return (
     <div className={styles.example}>
       <Accordion
-        className={styles.about}
-        id={0}
-        label="About"
-        expanded={expanded}
-        setExpanded={setExpanded}
-        accordionPath="/about"
-      >
-        <About />
-      </Accordion>
-      <Accordion
         className={styles.work}
-        id={1}
+        id={0}
         label="Work"
         expanded={expanded}
         setExpanded={setExpanded}
         accordionPath="/work"
       >
         <Work />
+      </Accordion>
+      <Accordion
+        className={styles.about}
+        id={1}
+        label="About"
+        expanded={expanded}
+        setExpanded={setExpanded}
+        accordionPath="/about"
+      >
+        <About />
       </Accordion>
 
       <Accordion
