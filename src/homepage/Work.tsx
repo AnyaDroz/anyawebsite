@@ -45,7 +45,7 @@ export default function Work() {
         <Project
           link="/analogue"
           header="Analogue"
-          role="Systems designer"
+          role="Design systems designer"
           image="/images/analogue-cover.png"
           mobileImage="/images/analogue-cover-mobile.png"
           tags="Design Systems, Components, Tokens"
