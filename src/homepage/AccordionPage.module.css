@@ -1,36 +1,32 @@
-
 .example {
-    width: 100svw;
-    height: 100svh;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .header {
-    padding: 10px 8px;
-    width: 100%;
-    cursor: pointer;
-    font-weight: 500;
+  padding: 10px 8px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .about {
-    background-color: var(--light-grey);
-    color: var(--dark-grey);
-    border-bottom: 1px solid var(--dark-grey);
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
+  border-bottom: 1px solid var(--dark-grey);
 }
 
 .work {
-    background-color: var(--case-study-page-background-color);
-    color: var(--case-study-text-color);
-    border-bottom: 1px solid var(--dark-grey);
+  background-color: var(--case-study-page-background-color);
+  color: var(--case-study-text-color);
+  border-bottom: 1px solid var(--dark-grey);
 }
 
 .contact {
-    background-color: var(--case-study-page-background-color);
-    color: var(--case-study-text-color);
-    border-bottom: 1px solid var(--dark-grey);
+  background-color: var(--case-study-page-background-color);
+  color: var(--case-study-text-color);
+  border-bottom: 1px solid var(--dark-grey);
 }
-
-
-

@@ -1,17 +1,16 @@
 .container {
-    font: var(--code-font);
-    margin: 60px auto;
-    grid-column: 3 / 10;
+  font: var(--code-font);
+  margin: 60px auto;
+  grid-column: 3 / 10;
 }
 
 .code {
-    word-break: break-all;
-    white-space: pre-wrap;
-
+  word-break: break-all;
+  white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 478px) {
-    .container {
-        grid-column: 1/-1;
-    }
+  .container {
+    grid-column: 1/-1;
+  }
 }

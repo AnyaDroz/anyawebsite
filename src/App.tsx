@@ -8,6 +8,7 @@ import Multi from "./projects/multi-transactions/Multi";
 import Echo from "./projects/echo/Echo";
 import Access from "./projects/instant-access/Access";
 import { AccordionPage } from "./homepage/AccordionPage";
+import Home from "./homepage/Home";
 
 function App() {
   // const location = useLocation();
@@ -19,10 +20,10 @@ function App() {
         <Route path="/loupe" index element={<Loupe />} />
         <Route path="/echo" index element={<Echo />} />
         <Route path="/access" index element={<Access />} />
-        <Route path="/" element={<AccordionPage index={0} />} />
-        <Route path="work" element={<AccordionPage index={0} />} />
-        <Route path="about" element={<AccordionPage index={1} />} />
-        <Route path="contact" element={<AccordionPage index={2} />} />
+        <Route path="/" element={<Home />} />
+        {/*<Route path="work" element={<AccordionPage index={0} />} />*/}
+        {/*<Route path="about" element={<AccordionPage index={1} />} />*/}
+        {/*<Route path="contact" element={<AccordionPage index={2} />} />*/}
       </Routes>
       <Analytics />
     </div>

@@ -1,34 +1,32 @@
 .grid {
-    width: 100%;
+  width: 100%;
 }
 
-
 .container {
-    padding: 50px 0;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  padding: 50px 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .video {
-    grid-column: 1/8;
-    width: 100%;
-    margin: auto;
+  grid-column: 1/8;
+  width: 100%;
+  margin: auto;
 }
 
 .caption {
-    grid-column: 1/-1;
-    color: var(--dark-grey);
+  grid-column: 1/-1;
+  color: var(--dark-grey);
 }
 
-
 @media only screen and (max-width: 478px) {
-    .video {
-        grid-column: 1/-1;
-        width: 100%;
-        margin: auto;
-    }
+  .video {
+    grid-column: 1/-1;
+    width: 100%;
+    margin: auto;
+  }
 }

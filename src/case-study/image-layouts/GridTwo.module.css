@@ -1,54 +1,52 @@
 .container {
-    height: auto;
-    margin-bottom: 4px;
+  height: auto;
+  margin-bottom: 4px;
 }
 
 .imageOne {
-    grid-column: 1/7;
+  grid-column: 1/7;
 }
 
 .captionOne {
-    grid-column: 1/7;
-    grid-row: 2/3;
+  grid-column: 1/7;
+  grid-row: 2/3;
 }
 
 .imageTwo {
-    grid-column: 7/13;
+  grid-column: 7/13;
 }
 
 .captionTwo {
-    grid-column: 7/13;
-    grid-row: 2/3;
+  grid-column: 7/13;
+  grid-row: 2/3;
 }
-
 
 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-
 @media only screen and (max-width: 478px) {
-    .imageOne {
-        grid-column: 1/-1;
-    }
+  .imageOne {
+    grid-column: 1/-1;
+  }
 
-    .captionOne {
-        grid-column: 1/-1;
-        grid-row: 2/3;
-    }
+  .captionOne {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
 
-    .imageTwo {
-        grid-column: 1/-1;
-    }
+  .imageTwo {
+    grid-column: 1/-1;
+  }
 
-    .captionTwo {
-        grid-column: 1/-1;
-        grid-row: 4/5;
-    }
+  .captionTwo {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+  }
 
-    .image {
-        grid-column: 1/-1;
-    }
+  .image {
+    grid-column: 1/-1;
+  }
 }

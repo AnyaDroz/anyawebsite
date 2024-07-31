@@ -1,18 +1,18 @@
 .scrollContainer {
-    overflow-y: scroll;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    border-bottom: 1px solid var(--dark-grey);
+  overflow-y: scroll;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid var(--dark-grey);
 }
 
 .workContent {
-    padding: 40px 0;
-    background-color: var(--case-study-page-background-color);
-    height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 16px;
+  padding: 40px 0;
+  background-color: var(--case-study-page-background-color);
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
 }

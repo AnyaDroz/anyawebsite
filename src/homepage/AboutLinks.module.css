@@ -1,20 +1,19 @@
 .links {
-    grid-column: 3 / 10;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  grid-column: 3 / 10;
+  display: flex;
+  gap: 8px;
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .links * {
-    color: var(--case-study-text-color);
+  color: var(--case-study-text-color);
 }
 
 @media only screen and (max-width: 478px) {
-    .links {
-        grid-column: 1 / -1;
-    }
+  .links {
+    grid-column: 1 / -1;
+  }
 }

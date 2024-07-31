@@ -1,52 +1,50 @@
 .container {
-    height: auto;
-    margin-bottom: 4px;
+  height: auto;
+  margin-bottom: 4px;
 }
 
 .image {
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 }
 
 .caption {
-    grid-column: 1/7;
-    grid-row: 2/3;
+  grid-column: 1/7;
+  grid-row: 2/3;
 }
 
 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .full {
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 }
 
 .start {
-    grid-column: 1/10;
+  grid-column: 1/10;
 }
 
 .end {
-    grid-column: 4/13;
+  grid-column: 4/13;
 }
 
-
 @media only screen and (max-width: 478px) {
-    .full {
-        grid-column: 1/-1;
-    }
+  .full {
+    grid-column: 1/-1;
+  }
 
-    .start {
-        grid-column: 1/-1;
-    }
+  .start {
+    grid-column: 1/-1;
+  }
 
-    .end {
-        grid-column: 1/-1;
-    }
+  .end {
+    grid-column: 1/-1;
+  }
 
-    .caption {
-        grid-column: 1/-1;
-        grid-row: 2/3;
-    }
-
+  .caption {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
 }
