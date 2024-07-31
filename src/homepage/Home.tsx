@@ -28,7 +28,7 @@ const Home = () => {
           tech="Front-end development, UI/UX Design"
           dates="Sep 23 - Jun 24"
           company="Pollinate"
-          hoverColor="#CCF9CE"
+          hoverColor="#D0D7F1"
           isExternal={false}
         />
         <ProjectCard
