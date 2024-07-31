@@ -14,7 +14,7 @@ export default function AboutLinks() {
         <a href="https://www.linkedin.com/in/anya-drozdova" target="_blank">
           LinkedIn
         </a>
-        <a href="https://www.linkedin.com/in/anya-drozdova" target="_blank">
+        <a href="mailto:anyadrozdova.dev@gmail.com" target="_blank">
           anyadrozdova.dev@gmail.com
         </a>
       </div>

@@ -29,18 +29,20 @@ const Home = () => {
           dates="Sep 23 - Jun 24"
           company="Pollinate"
           hoverColor="#D2D4D6"
+          isExternal={false}
         />
         <ProjectCard
           image="/images/framer-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
-          link="/multi-transactions"
+          link="https://medium.com/@anya./react-framer-sequences-397db9375fb4"
           name="Framer motion"
           type="Publication"
           tech="Front-end development"
           dates="Sep 23 - Jun 24"
           company="Medium"
           hoverColor="#FBD4D6"
+          isExternal={true}
         />
         <ProjectCard
           image="/images/loupe-cover.png"
@@ -53,6 +55,7 @@ const Home = () => {
           dates="Sep 23 - Jun 24"
           company="Loupe"
           hoverColor="#FCF2D4"
+          isExternal={false}
         />
         <ProjectCard
           image="/images/multi-cover.png"
@@ -65,6 +68,7 @@ const Home = () => {
           dates="Sep 23 - Jun 24"
           company="Personal"
           hoverColor="#CFD9E5"
+          isExternal={false}
         />
         <ProjectCard
           image="/images/access-cover.png"
@@ -77,18 +81,20 @@ const Home = () => {
           dates="Sep 23 - Jun 24"
           company="iwocaPay"
           hoverColor="#D6E7DE"
+          isExternal={false}
         />
         <ProjectCard
           image="/images/syncing-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
-          link="/multi-transactions"
+          link="https://medium.com/@anya./syncing-software-design-development-how-to-push-code-changes-from-figma-21babf7e6ac3"
           name="Syncing Design & Development"
           type="Publication"
           tech="Front-end development"
           dates="Sep 23 - Jun 24"
           company="Medium"
           hoverColor="#E3E4EC"
+          isExternal={true}
         />
         <ProjectCard
           image="/images/analogue-cover.png"
@@ -101,6 +107,7 @@ const Home = () => {
           dates="Sep 23 - Jun 24"
           company="Multiple companies"
           hoverColor="#D5DAF6"
+          isExternal={false}
         />
       </div>
       <Grid className={styles.footer}>

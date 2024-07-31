@@ -13,6 +13,7 @@ type Props = {
   dates: string;
   company: string;
   hoverColor: string;
+  isExternal: boolean;
 };
 
 const ProjectCard = ({
@@ -26,13 +27,19 @@ const ProjectCard = ({
   dates,
   company,
   hoverColor,
+  isExternal,
 }: Props) => {
   const linkStyle: CSSProperties = {
     "--hover-color": hoverColor,
   } as CSSProperties;
 
   return (
-    <Link to={link} className={styles.project} style={linkStyle}>
+    <Link
+      to={link}
+      className={styles.project}
+      style={linkStyle}
+      target={isExternal ? "_blank" : ""}
+    >
       <picture>
         <source media="(max-width: 478px)" srcSet={mobileImage} />
         <source media="(min-width: 1280px)" srcSet={image} />
