@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Grid className={styles.header}>
-        {/*<AboutLinks />*/}
+        <AboutLinks />
         <p className={styles.about}>
           <b>Hello - I’m Anya</b>, an experienced software engineer and UI/UX
           designer. I enjoy solving problems with clean scalable solutions and
@@ -19,26 +19,28 @@ const Home = () => {
       </Grid>
       <div className={clsx(styles.projectContainer)}>
         <ProjectCard
-          image="/images/analogue-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
-          altText=""
-          link="/multi-transactions"
-          name="Stopwatch"
-          type="Case study"
-          tech="React"
-          dates="Sep 23 - Jun 24"
-          company="Personal"
-        />
-        <ProjectCard
           image="/images/echo-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
-          link="/multi-transactions"
+          link="/echo"
           name="Echo studio"
           type="Case study"
-          tech="React"
+          tech="Front-end development, UI/UX Design"
           dates="Sep 23 - Jun 24"
-          company="Personal"
+          company="Pollinate"
+          hoverColor="#D2D4D6"
+        />
+        <ProjectCard
+          image="/images/framer-cover.png"
+          mobileImage="/images/multi-cover-mobile.png"
+          altText=""
+          link="/multi-transactions"
+          name="Framer motion"
+          type="Publication"
+          tech="Front-end development"
+          dates="Sep 23 - Jun 24"
+          company="Medium"
+          hoverColor="#FBD4D6"
         />
         <ProjectCard
           image="/images/loupe-cover.png"
@@ -47,44 +49,63 @@ const Home = () => {
           link="/multi-transactions"
           name="Loupe"
           type="Case study"
-          tech="React"
+          tech="Front-end development, UI/UX Design"
           dates="Sep 23 - Jun 24"
-          company="Personal"
+          company="Loupe"
+          hoverColor="#FCF2D4"
         />
         <ProjectCard
           image="/images/multi-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
           link="/multi-transactions"
-          name="Echo studio"
+          name="Multi-transactions"
           type="Case study"
-          tech="React"
+          tech="UI/UX Design"
           dates="Sep 23 - Jun 24"
           company="Personal"
+          hoverColor="#CFD9E5"
         />
         <ProjectCard
           image="/images/access-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
           link="/multi-transactions"
-          name="Echo studio"
+          name="Instant access"
           type="Case study"
-          tech="React"
+          tech="UI/UX Design"
           dates="Sep 23 - Jun 24"
-          company="Personal"
+          company="iwocaPay"
+          hoverColor="#D6E7DE"
+        />
+        <ProjectCard
+          image="/images/syncing-cover.png"
+          mobileImage="/images/multi-cover-mobile.png"
+          altText=""
+          link="/multi-transactions"
+          name="Syncing Design & Development"
+          type="Publication"
+          tech="Front-end development"
+          dates="Sep 23 - Jun 24"
+          company="Medium"
+          hoverColor="#E3E4EC"
         />
         <ProjectCard
           image="/images/analogue-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
           link="/multi-transactions"
-          name="Echo studio"
+          name="Analogue"
           type="Case study"
-          tech="React"
+          tech="Front-end development, UI/UX Design"
           dates="Sep 23 - Jun 24"
-          company="Personal"
+          company="Multiple companies"
+          hoverColor="#D5DAF6"
         />
       </div>
+      <Grid className={styles.footer}>
+        <p>©2024</p>
+      </Grid>
     </div>
   );
 };

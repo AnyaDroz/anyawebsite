@@ -18,3 +18,9 @@
   grid-column: 1/10;
 }
 
+.footer {
+  font-size: 15px;
+  margin-top: 80px;
+  padding: 16px 12px;
+}
+

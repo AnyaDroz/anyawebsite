@@ -1,18 +1,12 @@
-.projectWrapper {
+.project{
   grid-column: span 4;
   text-decoration: none;
   color: var(--dark-grey);
   transition: 0.2s ease-in;
-  padding: 12px 0px;
-}
-
-.projectWrapper:hover {
-  text-decoration: none;
+  padding: 12px 12px;
 
 }
-.project {
-  padding: 0px 12px;
-}
+
 
 .project:nth-child(3n + 2) {
   /*border-left: 1px solid var(--dark-grey);*/
@@ -57,16 +51,14 @@
 }
 
 img {
-  height: 100%;
-  /*filter: grayscale(100%);  transition: 0.2s ease-in;*/
+
+  height: 300px;
 }
-.projectWrapper:hover img{
+.projectWrapper {
+  --hover-color: initial; /* Set a default value */
+  /* other styles */
+}
+.project:hover  {
   text-decoration: none;
-  /*filter: grayscale(0%);  transition: 0.2s ease-in;*/
-
-}
-
-.projectWrapper:hover {
-  background-color: #dfe3fe;
-
+  background-color: var(--hover-color); /* Use the CSS variable for hover color */
 }

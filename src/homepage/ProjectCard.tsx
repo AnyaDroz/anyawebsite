@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, CSSProperties } from "react";
 import { Link } from "react-router-dom";
 import styles from "./ProjectCard.module.css";
 
@@ -12,6 +12,7 @@ type Props = {
   tech: string;
   dates: string;
   company: string;
+  hoverColor: string;
 };
 
 const ProjectCard = ({
@@ -24,23 +25,26 @@ const ProjectCard = ({
   tech,
   dates,
   company,
+  hoverColor,
 }: Props) => {
+  const linkStyle: CSSProperties = {
+    "--hover-color": hoverColor,
+  } as CSSProperties;
+
   return (
-    <Link to={link} className={styles.projectWrapper}>
-      <div className={styles.project}>
-        <picture>
-          <source media="(max-width: 478px)" srcSet={mobileImage} />
-          <source media="(min-width: 1280px)" srcSet={image} />
-          <img src={image} alt={altText} loading="eager" />
-        </picture>
-        <div className={styles.projectInfo}>
-          <p className={styles.title}>{name}</p>
-          <div className={styles.projectDetails}>
-            <p>{type}</p>
-            <p>{company}</p>
-            <p>{tech}</p>
-            <p>{dates}</p>
-          </div>
+    <Link to={link} className={styles.project} style={linkStyle}>
+      <picture>
+        <source media="(max-width: 478px)" srcSet={mobileImage} />
+        <source media="(min-width: 1280px)" srcSet={image} />
+        <img src={image} alt={altText} loading="eager" />
+      </picture>
+      <div className={styles.projectInfo}>
+        <p className={styles.title}>{name}</p>
+        <div className={styles.projectDetails}>
+          <p>{type}</p>
+          <p>{company}</p>
+          <p>{tech}</p>
+          <p>{dates}</p>
         </div>
       </div>
     </Link>
