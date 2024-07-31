@@ -1,11 +1,10 @@
 .links {
-  grid-column: 3 / 10;
   display: flex;
-  gap: 8px;
+  gap: 40px;
 }
 
 .container {
-  width: 100%;
+  grid-column: 1 / -1;
 }
 
 .links * {

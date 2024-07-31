@@ -3,7 +3,7 @@ import Grid from "../common/Grid";
 
 export default function AboutLinks() {
   return (
-    <Grid className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.links}>
         <a href="https://medium.com/@anya." target="_blank">
           Medium
@@ -15,9 +15,9 @@ export default function AboutLinks() {
           LinkedIn
         </a>
         <a href="https://www.linkedin.com/in/anya-drozdova" target="_blank">
-          LinkedIn
+          anyadrozdova.dev@gmail.com
         </a>
       </div>
-    </Grid>
+    </div>
   );
 }

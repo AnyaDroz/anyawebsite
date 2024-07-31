@@ -1,19 +1,49 @@
-import styles from "./Home.module.css";
+import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import styles from "./ProjectCard.module.css";
 
-const ProjectCard = () => {
+type Props = {
+  image: string;
+  mobileImage: string;
+  altText: string;
+  link: string;
+  name: string;
+  type: string;
+  tech: string;
+  dates: string;
+  company: string;
+};
+
+const ProjectCard = ({
+  image,
+  altText,
+  mobileImage,
+  link,
+  name,
+  type,
+  tech,
+  dates,
+  company,
+}: Props) => {
   return (
-    <div className={styles.project}>
-      <div className={styles.projectImage}></div>
-      <div className={styles.projectInfo}>
-        <h4 className={styles.title}>Echo Studio</h4>
-        <div className={styles.projectDetails}>
-          <p>Personal</p>
-          <p>Case study</p>
-          <p>Javascript</p>
-          <p>ESep 23 - Jun 23</p>
+    <Link to={link} className={styles.projectWrapper}>
+      <div className={styles.project}>
+        <picture>
+          <source media="(max-width: 478px)" srcSet={mobileImage} />
+          <source media="(min-width: 1280px)" srcSet={image} />
+          <img src={image} alt={altText} loading="eager" />
+        </picture>
+        <div className={styles.projectInfo}>
+          <p className={styles.title}>{name}</p>
+          <div className={styles.projectDetails}>
+            <p>{type}</p>
+            <p>{company}</p>
+            <p>{tech}</p>
+            <p>{dates}</p>
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
