@@ -19,6 +19,19 @@ const Home = () => {
       </Grid>
       <div className={clsx(styles.projectContainer)}>
         <ProjectCard
+          image="/images/stopwatch-cover.png"
+          mobileImage="/images/multi-cover-mobile.png"
+          altText=""
+          link="/echo"
+          name="Stopwatch"
+          type="Case study"
+          tech="Front-end development, UI/UX Design"
+          dates="Sep 23 - Jun 24"
+          company="Pollinate"
+          hoverColor="#CCF9CE"
+          isExternal={false}
+        />
+        <ProjectCard
           image="/images/echo-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           altText=""
@@ -105,7 +118,7 @@ const Home = () => {
           type="Case study"
           tech="Front-end development, UI/UX Design"
           dates="Sep 23 - Jun 24"
-          company="Multiple companies"
+          company="Pollinate, iwocaPay"
           hoverColor="#D5DAF6"
           isExternal={false}
         />
