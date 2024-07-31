@@ -9,7 +9,7 @@ export default function Work() {
         <Project
           link="/echo"
           header="Echo studio"
-          role="Lead designer and Angular developer"
+          role="Front-end developer and Design lead"
           image="/images/echo-cover.png"
           mobileImage="/images/echo-cover-mobile.png"
           tags="Fintech, B2B2B, White-label UI"
@@ -18,7 +18,7 @@ export default function Work() {
         <Project
           link="/loupe"
           header="Loupe"
-          role="Lead designer & React developer"
+          role="React developer and Design lead"
           image="/images/loupe-cover.png"
           mobileImage="/images/loupe-cover-mobile.png"
           tags="B2C, Marketplace, E-commerce, Publication"
@@ -27,7 +27,7 @@ export default function Work() {
         <Project
           link="/multi-transactions"
           header="Multi-transactions"
-          role="Product designer"
+          role="UI/UX designer"
           image="/images/multi-cover.png"
           mobileImage="/images/multi-cover-mobile.png"
           tags="B2B, Fintech, Payments"
@@ -36,7 +36,7 @@ export default function Work() {
         <Project
           link="/access"
           header="Instant access"
-          role="Product designer"
+          role="UI/UX designer"
           image="/images/access-cover.png"
           mobileImage="/images/access-cover-mobile.png"
           tags="B2B, Payments, Onboarding, Forms"
@@ -45,7 +45,7 @@ export default function Work() {
         <Project
           link="/analogue"
           header="Analogue"
-          role="Design systems designer"
+          role="UI/UX designer"
           image="/images/analogue-cover.png"
           mobileImage="/images/analogue-cover-mobile.png"
           tags="Design Systems, Components, Tokens"
