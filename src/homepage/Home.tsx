@@ -10,31 +10,29 @@ const Home = () => {
       <Grid className={styles.header}>
         <AboutLinks />
         <p className={styles.about}>
-          <b>Hello - I’m Anya</b>, an experienced software engineer and UI/UX
-          designer. I enjoy solving problems with clean scalable solutions and
-          creating elegant digital products and brand experiences. I am a highly
-          visual thinker working with Typescript, React, Angular, Storybook,
-          Framer... to name a few.
+          <b>Hello - I’m Anya</b>, a Software Engineer and UI/UX Designer. I
+          enjoy solving problems with clean scalable solutions and creating
+          elegant digital products and brand experiences. I am a highly visual
+          thinker working with Typescript, React, Angular, Storybook, Framer...
+          to name a few.
         </p>
       </Grid>
       <div className={clsx(styles.projectContainer)}>
         <ProjectCard
           image="/images/stopwatch-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
-          altText=""
-          link="/echo"
+          altText="stopwatch"
+          link="https://martian-stopwatch-6anj60o93-anyadrozs-projects.vercel.app/"
           name="Stopwatch"
-          type="Case study"
-          tech="Front-end development, UI/UX Design"
-          dates="Sep 23 - Jun 24"
-          company="Pollinate"
+          type="Coding Project"
+          tech="React, Typescript"
+          dates="Jul 24"
+          company="Personal"
           hoverColor="#D0D7F1"
-          isExternal={false}
+          isExternal={true}
         />
         <ProjectCard
           image="/images/echo-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
-          altText=""
+          altText="echo-studio "
           link="/echo"
           name="Echo studio"
           type="Case study"
@@ -46,74 +44,69 @@ const Home = () => {
         />
         <ProjectCard
           image="/images/framer-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
           altText=""
           link="https://medium.com/@anya./react-framer-sequences-397db9375fb4"
           name="Framer motion"
           type="Publication"
           tech="Front-end development"
-          dates="Sep 23 - Jun 24"
+          dates="May 24"
           company="Medium"
           hoverColor="#FBD4D6"
           isExternal={true}
         />
         <ProjectCard
           image="/images/loupe-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
           altText=""
           link="/multi-transactions"
           name="Loupe"
           type="Case study"
           tech="Front-end development, UI/UX Design"
-          dates="Sep 23 - Jun 24"
+          dates="Sep 22 - Jun 23"
           company="Loupe"
           hoverColor="#FCF2D4"
           isExternal={false}
         />
         <ProjectCard
+          image="/images/syncing-cover.png"
+          altText=""
+          link="https://medium.com/@anya./syncing-software-design-development-how-to-push-code-changes-from-figma-21babf7e6ac3"
+          name="Syncing Design & Development"
+          type="Publication"
+          tech="Front-end development"
+          dates="May 23"
+          company="Medium"
+          hoverColor="#E3E4EC"
+          isExternal={true}
+        />
+        <ProjectCard
           image="/images/multi-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
           altText=""
           link="/multi-transactions"
           name="Multi-transactions"
           type="Case study"
           tech="UI/UX Design"
-          dates="Sep 23 - Jun 24"
+          dates="Jan 22"
           company="Personal"
           hoverColor="#CFD9E5"
           isExternal={false}
         />
         <ProjectCard
           image="/images/access-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
           altText=""
-          link="/multi-transactions"
+          link="/access"
           name="Instant access"
           type="Case study"
           tech="UI/UX Design"
-          dates="Sep 23 - Jun 24"
+          dates="Jun 21 - Sep 21"
           company="iwocaPay"
           hoverColor="#D6E7DE"
           isExternal={false}
         />
-        <ProjectCard
-          image="/images/syncing-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
-          altText=""
-          link="https://medium.com/@anya./syncing-software-design-development-how-to-push-code-changes-from-figma-21babf7e6ac3"
-          name="Syncing Design & Development"
-          type="Publication"
-          tech="Front-end development"
-          dates="Sep 23 - Jun 24"
-          company="Medium"
-          hoverColor="#E3E4EC"
-          isExternal={true}
-        />
+
         <ProjectCard
           image="/images/analogue-cover.png"
-          mobileImage="/images/multi-cover-mobile.png"
           altText=""
-          link="/multi-transactions"
+          link="/analogue"
           name="Analogue"
           type="Case study"
           tech="Front-end development, UI/UX Design"
@@ -124,7 +117,7 @@ const Home = () => {
         />
       </div>
       <Grid className={styles.footer}>
-        <p>©2024</p>
+        <p className={styles.copyright}>©2024</p>
       </Grid>
     </div>
   );

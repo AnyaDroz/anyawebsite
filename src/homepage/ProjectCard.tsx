@@ -1,10 +1,11 @@
-import React, { useRef, useEffect, useState, CSSProperties } from "react";
+import { ArrowUpRight } from "lucide-react";
+import React, { CSSProperties, useRef } from "react";
 import { Link } from "react-router-dom";
 import styles from "./ProjectCard.module.css";
-
+import { useInView } from "framer-motion";
+import clsx from "clsx";
 type Props = {
   image: string;
-  mobileImage: string;
   altText: string;
   link: string;
   name: string;
@@ -19,7 +20,6 @@ type Props = {
 const ProjectCard = ({
   image,
   altText,
-  mobileImage,
   link,
   name,
   type,
@@ -32,21 +32,27 @@ const ProjectCard = ({
   const linkStyle: CSSProperties = {
     "--hover-color": hoverColor,
   } as CSSProperties;
+  const ref = useRef(null);
+  const isInView = useInView(ref, { amount: 0.7 });
 
+  console.log(isInView);
   return (
     <Link
+      ref={ref}
       to={link}
-      className={styles.project}
+      className={clsx(styles.project, { [styles.scrollBg]: isInView })}
       style={linkStyle}
       target={isExternal ? "_blank" : ""}
     >
       <picture>
-        <source media="(max-width: 478px)" srcSet={mobileImage} />
         <source media="(min-width: 1280px)" srcSet={image} />
         <img src={image} alt={altText} loading="eager" />
       </picture>
       <div className={styles.projectInfo}>
-        <p className={styles.title}>{name}</p>
+        <div className={styles.projectTitle}>
+          <p className={styles.title}>{name}</p>
+          {isExternal && <ArrowUpRight size={16} strokeWidth={2} />}
+        </div>
         <div className={styles.projectDetails}>
           <p>{type}</p>
           <p>{company}</p>

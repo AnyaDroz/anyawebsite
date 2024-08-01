@@ -1,35 +1,17 @@
-.project{
+.project {
   grid-column: span 4;
   text-decoration: none;
   color: var(--dark-grey);
   transition: 0.2s ease-in;
-  padding: 12px 12px;
-
+  padding: 8px 8px;
+  --hover-color: initial;
 }
-
-
-.project:nth-child(3n + 2) {
-  /*border-left: 1px solid var(--dark-grey);*/
-  /*border-right: 1px solid var(--dark-grey);*/
-}
-
-.project:last-child {
-  /*border-right: 1px solid var(--dark-grey);*/
-
-}
-
 
 .projectInfo {
   display: flex;
   flex-direction: column;
   gap: 4px;
   flex-grow: 0;
-}
-
-.projectImage {
-  height: 300px;
-  width: 100%;
-  background-color: black;
 }
 
 .projectDetails {
@@ -39,26 +21,43 @@
   padding: 8px 0;
 }
 
-.about {
-  margin: 80px 0;
-  grid-column: 1/10;
-}
-
 .title {
-  padding: 8px 0;
-  border-bottom: 1px solid var(--dark-grey);
   font-weight: 600;
 }
 
-img {
+.projectTitle {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--dark-grey);
+  display: flex;
+}
 
-  height: 300px;
+img {
+  width: 100%;
+  height: auto;
 }
-.projectWrapper {
-  --hover-color: initial; /* Set a default value */
-  /* other styles */
-}
-.project:hover  {
+
+.project:hover {
   text-decoration: none;
-  background-color: var(--hover-color); /* Use the CSS variable for hover color */
+  background-color: var(
+    --hover-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .project {
+    grid-column: span 6;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .project {
+    grid-column: 1/-1;
+  }
+
+  .scrollBg {
+    background-color: var(--hover-color);
+  }
 }

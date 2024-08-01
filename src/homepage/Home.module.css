@@ -1,15 +1,11 @@
 .header {
   padding: 16px 12px;
-  /*border-bottom: 1px solid var(--dark-grey);*/
 }
 
 .projectContainer {
-  /*border-top: 1px solid var(--dark-grey);*/
-  /*padding-top: 8px;*/
   max-width: var(--page-max-width);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
   margin: 0 auto;
 }
 
@@ -19,8 +15,10 @@
 }
 
 .footer {
-  font-size: 15px;
   margin-top: 80px;
   padding: 16px 12px;
 }
 
+.copyright {
+  font-size: 15px;
+}
