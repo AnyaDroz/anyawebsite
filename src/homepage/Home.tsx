@@ -10,11 +10,10 @@ const Home = () => {
       <Grid className={styles.header}>
         <AboutLinks />
         <p className={styles.about}>
-          <b>Hello - I’m Anya</b>, a Software Engineer and UI/UX Designer. I
-          enjoy solving problems with clean scalable solutions and creating
-          elegant digital products and brand experiences. I am a highly visual
-          thinker working with Typescript, React, Angular, Storybook, Framer...
-          to name a few.
+          <b>Hello - I’m Anya</b>, a Software Engineer and Designer. I enjoy
+          solving problems with clean scalable solutions and creating elegant
+          digital products and brand experiences. I work with Typescript, React,
+          Angular, Storybook, Framer... to name a few.
         </p>
       </Grid>
       <div className={clsx(styles.projectContainer)}>
