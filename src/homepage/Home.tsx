@@ -56,7 +56,7 @@ const Home = () => {
         <ProjectCard
           image="/images/loupe-cover.png"
           altText=""
-          link="/multi-transactions"
+          link="/loupe"
           name="Loupe"
           type="Case study"
           tech="Front-end development, UI/UX Design"
