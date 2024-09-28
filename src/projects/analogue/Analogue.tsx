@@ -133,18 +133,18 @@ function Analogue() {
       <GridTwo
         imageOne="/images/analogue-12.png"
         imageTwo="/images/analogue-13.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
+        captionOne="(1a) Desktop example of dark mode"
         mobileOne="/images/analogue-13-mobile.png"
         mobileTwo="/images/analogue-12-mobile.png"
-        captionTwo="(1b) Mobile example screen of light mode design system example screen of light mode design system"
+        captionTwo="(1b) Desktop example of dark mode"
       />
       <GridTwo
         imageOne="/images/analogue-14.png"
         imageTwo="/images/analogue-15.png"
         mobileTwo="/images/analogue-15-mobile.png"
         mobileOne="/images/analogue-14-mobile.png"
-        captionOne="(1a) Mobile example screen of light mode design system"
-        captionTwo="(1b) Mobile example screen of light mode design systemexample screen of light mode design system"
+        captionOne="(2a) Desktop example of light mode"
+        captionTwo="(2b) Desktop example screen of light mode"
       />
       <SubHeader
         heading="Colours"
